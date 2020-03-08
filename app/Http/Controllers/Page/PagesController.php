@@ -10,7 +10,7 @@ class PagesController extends Controller
     //
 
     public function index(){
-        return view('public.pages.index');
+        return view('public.index');
     }
     public function about(){
         return view('public.pages.about');

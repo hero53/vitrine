@@ -18,10 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/','Page\PagesController@index')->name('home');
-Route::get('/about','Page\PagesController@about')->name('about');
+Route::get('/service','Service\ServiceController@index')->name('service');
 
-Route::get('/blog','Blog\BlogController@index')->name('blog.index');
-Route::get('/blog/show','Blog\BlogController@show')->name('blog.show');
-Route::get('devi','Devi\DeviController@index')->name('devi');
+//Route::get('/blog','Blog\BlogController@index')->name('blog.index');
+//Route::get('/blog/show','Blog\BlogController@show')->name('blog.show');
+//Route::get('devi','Devi\DeviController@index')->name('devi');
 
 
