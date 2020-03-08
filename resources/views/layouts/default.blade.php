@@ -107,79 +107,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!-- EXTRA NAV -->
-                    <div class="extra-nav">
-                        <div class="extra-cell">
-                            <button type="button" class="site-search-btn"><i class="fa fa-search"></i></button>
-                        </div>
-                        <div class="extra-cell">
-                            <a href="javascript:;" class="wt-cart cart-btn" title="Your Cart">
-                                    <span class="link-inner">
-                                        <span class="woo-cart-total"> </span>
-                                        <span class="woo-cart-count">
-                                            <span class="shopping-bag wcmenucart-count ">4</span>
-                                        </span>
-                                    </span>
-                            </a>
 
-                            <div class="cart-dropdown-item-wraper clearfix">
-                                <div class="nav-cart-content">
-
-                                    <div class="nav-cart-items p-a15">
-                                        <div class="nav-cart-item clearfix">
-                                            <div class="nav-cart-item-image">
-                                                <a href="#"><img src="images/cart/pic-1.jpg" alt="p-1"></a>
-                                            </div>
-                                            <div class="nav-cart-item-desc">
-                                                <a href="#">Safety helmet</a>
-                                                <span class="nav-cart-item-price"><strong>2</strong> x $19.99</span>
-                                                <a href="#" class="nav-cart-item-quantity">x</a>
-                                            </div>
-                                        </div>
-                                        <div class="nav-cart-item clearfix">
-                                            <div class="nav-cart-item-image">
-                                                <a href="#"><img src="images/cart/pic-2.jpg" alt="p-2"></a>
-                                            </div>
-                                            <div class="nav-cart-item-desc">
-                                                <a href="#">Hammer drill machine</a>
-                                                <span class="nav-cart-item-price"><strong>1</strong> x $24.99</span>
-                                                <a href="#" class="nav-cart-item-quantity">x</a>
-                                            </div>
-                                        </div>
-                                        <div class="nav-cart-item clearfix">
-                                            <div class="nav-cart-item-image">
-                                                <a href="#"><img src="images/cart/pic-3.jpg" alt="p-1"></a>
-                                            </div>
-                                            <div class="nav-cart-item-desc">
-                                                <a href="#">Safety helmet</a>
-                                                <span class="nav-cart-item-price"><strong>2</strong> x $19.99</span>
-                                                <a href="#" class="nav-cart-item-quantity">x</a>
-                                            </div>
-                                        </div>
-                                        <div class="nav-cart-item clearfix">
-                                            <div class="nav-cart-item-image">
-                                                <a href="#"><img src="images/cart/pic-4.jpg" alt="p-2"></a>
-                                            </div>
-                                            <div class="nav-cart-item-desc">
-                                                <a href="#">Hammer drill machine</a>
-                                                <span class="nav-cart-item-price"><strong>1</strong> x $24.99</span>
-                                                <a href="#" class="nav-cart-item-quantity">x</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="nav-cart-title p-tb10 p-lr15 clearfix">
-                                        <h4  class="pull-left m-a0">Subtotal:</h4>
-                                        <h5 class="pull-right m-a0">$114.95</h5>
-                                    </div>
-                                    <div class="nav-cart-action p-a15 clearfix">
-                                        <button class="site-button  btn-block m-b15 " type="button">View Cart</button>
-                                        <button class="site-button  btn-block" type="button">Checkout </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
                     <!-- SITE Search AREA -->
                     <div class="site-search">
                         <form action="#">
@@ -195,11 +123,11 @@
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
                             <li class="sub-menu">
-                                <a href="javascript:;">Home<i class="fa fa-chevron-down "></i></a>
+                                <a href="javascript:;">Home<i class=""></i></a>
                             </li>
 
                             <li>
-                                <a href="javascript:;">SERVICES<i class="fa fa-chevron-down"></i></a>
+                                <a href="{{route('service')}}">SERVICES<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="product.html">Product</a></li>
                                     <li><a href="product-detail.html">Product Detail</a></li>
@@ -207,16 +135,16 @@
                             </li>
 
                             <li>
-                                <a href="javascript:;">PROJET<i class="fa fa-chevron-down"></i></a>
+                                <a href="javascript:;">PROJET<i class=""></i></a>
 
                             </li>
 
                             <li class="submenu-direction">
-                                <a href="javascript:;">BLOG<i class="fa fa-chevron-down"></i></a>
+                                <a href="javascript:;">BLOG<i class=""></i></a>
 
                             </li>
                             <li>
-                                <a href="javascript:;">CONTACT<i class="fa fa-chevron-down"></i></a>
+                                <a href="{{route('contact')}}">CONTACT<i class=""></i></a>
 
                             </li>
 

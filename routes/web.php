@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','Page\PagesController@index')->name('home');
 Route::get('/service','Service\ServiceController@index')->name('service');
+Route::get('/contact','Contact\ContactController@index')->name('contact');
+
 
 //Route::get('/blog','Blog\BlogController@index')->name('blog.index');
 //Route::get('/blog/show','Blog\BlogController@show')->name('blog.show');
