@@ -1,4 +1,9 @@
 @extends('layouts.default')
 @section('content')
-    hello
+    hello <br>
+    hello <br>
+    hello <br>
+    hello <br>
+    hello <br>
+    hello <br>
 @endsection
