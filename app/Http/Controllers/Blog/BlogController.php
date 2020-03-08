@@ -48,7 +48,7 @@ class BlogController extends Controller
     public function show()
     {
         //
-        return view('public/blog/show');
+        return view('public.blog.show');
     }
 
     /**

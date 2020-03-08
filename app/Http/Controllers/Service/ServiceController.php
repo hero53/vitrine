@@ -17,6 +17,18 @@ class ServiceController extends Controller
         //
         return view('public.service.index');
     }
+    public function agriculture()
+    {
+        //
+        return view('public.service.Agriculture&Agro-industrie');
+    }
+    public function batiments()
+    {
+        //
+        return view('public.service.Batiments');
+    }
+
+
 
 
 }

@@ -129,8 +129,14 @@
                             <li>
                                 <a href="{{route('service')}}">SERVICES<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="product.html">Product</a></li>
-                                    <li><a href="product-detail.html">Product Detail</a></li>
+                                    <li><a href="product.html">Exploration et Exploitation minière et Pétrolière </a></li>
+                                    <li><a href="product.html">Bâtiments et Travaux Publics </a></li>
+                                    <li><a href="product.html">Ingénierie en Electricité et Télécom </a></li>
+                                    <li><a href="product.html">Forage, Hydraulique et Géophysique </a></li>
+                                    <li><a href="product.html">Agriculture et Agro-industrie </a></li>
+                                    <li><a href="product.html">Eau, Sol et Environnement </a></li>
+                                    <li><a href="product.html">Commerce, Import-Export </a></li>
+                                    <li><a href="product.html">Formation et Encadrement Technique </a></li>
                                 </ul>
                             </li>
 
@@ -140,7 +146,7 @@
                             </li>
 
                             <li class="submenu-direction">
-                                <a href="javascript:;">BLOG<i class=""></i></a>
+                                <a href="{{route('blog.index')}}">BLOG<i class=""></i></a>
 
                             </li>
                             <li>
