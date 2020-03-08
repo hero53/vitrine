@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/','Page\PagesController@index')->name('home');
+Route::get('/home','Page\PagesController@index')->name('home');
 Route::get('/service','Service\ServiceController@index')->name('service');
 Route::get('/contact','Contact\ContactController@index')->name('contact');
 
@@ -25,6 +25,7 @@ Route::get('/contact','Contact\ContactController@index')->name('contact');
 Route::get('/blog','Blog\BlogController@index')->name('blog.index');
 Route::get('/article','Blog\BlogController@show')->name('blog.show');
 Route::get('/projet','Projet\ProjetsController@index')->name('projet.index');
+Route::get('/detail','Projet\ProjetsController@show')->name('projet.show');
 //Route::get('devi','Devi\DeviController@index')->name('devi');
 
 

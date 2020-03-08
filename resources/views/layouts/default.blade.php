@@ -75,11 +75,7 @@
                     <div class="wt-topbar-right clearfix">
                         <ul class="social-bx list-inline pull-right">
                             <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
                             <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
                         </ul>
                         <ul class="list-unstyled e-p-bx pull-right">
                             <li><i class="fa fa-envelope"></i>mail@startuprr.com</li>
@@ -96,7 +92,7 @@
                 <div class="container">
                     <!-- SITE LOGO -->
                     <div class="logo-header mostion header-skew">
-                        <a href="index.html">
+                        <a href="{{route('home')}}">
                             <img src="images/logo.png" width="230" height="67" alt="" />
                         </a>
                     </div>
@@ -123,7 +119,7 @@
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
                             <li class="sub-menu">
-                                <a href="javascript:;">Home<i class=""></i></a>
+                                <a href="{{route('home')}}">Home<i class=""></i></a>
                             </li>
 
                             <li>
