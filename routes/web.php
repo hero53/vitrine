@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+   return view('welcome');
+});
 
 Route::get('/home','Page\PagesController@index')->name('home');
 Route::get('/service','Service\ServiceController@index')->name('service');
@@ -29,3 +29,7 @@ Route::get('/detail','Projet\ProjetsController@show')->name('projet.show');
 //Route::get('devi','Devi\DeviController@index')->name('devi');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
