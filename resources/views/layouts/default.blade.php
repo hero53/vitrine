@@ -141,7 +141,7 @@
                             </li>
 
                             <li>
-                                <a href="javascript:;">PROJET<i class=""></i></a>
+                                <a href="{{route('projet.index')}}">PROJET<i class=""></i></a>
  
                             </li>
 

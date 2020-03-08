@@ -24,7 +24,7 @@ Route::get('/contact','Contact\ContactController@index')->name('contact');
 
 Route::get('/blog','Blog\BlogController@index')->name('blog.index');
 Route::get('/article','Blog\BlogController@show')->name('blog.show');
-//Route::get('/blog/show','Blog\BlogController@show')->name('blog.show');
+Route::get('/projet','Projet\ProjetsController@index')->name('projet.index');
 //Route::get('devi','Devi\DeviController@index')->name('devi');
 
 
