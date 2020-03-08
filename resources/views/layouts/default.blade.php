@@ -194,207 +194,32 @@
                     <!-- MAIN NAV -->
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
-                            <li class="active">
-                                <a href="javascript:;">Home<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home 1</a></li>
-                                    <li><a href="index-2.html">Home 2</a></li>
-                                    <li><a href="index-3.html">Home 3 <b class="nav-new-label">New</b></a></li>
-                                    <li><a href="index-4.html">Home 4</a></li>
-                                    <li><a href="index-5.html">Home 5</a></li>
-                                </ul>
+                            <li class="sub-menu">
+                                <a href="javascript:;">Home<i class="fa fa-chevron-down "></i></a>
                             </li>
 
                             <li>
-                                <a href="javascript:;">Pages<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-
-                                    <li>
-                                        <a href="career.html">Career</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Portfolio</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="portfolio-1.html">Portfolio 1</a></li>
-                                            <li><a href="portfolio-2.html">Portfolio 2</a></li>
-                                            <li><a href="portfolio-3.html">Portfolio 3</a></li>
-                                            <li><a href="portfolio-detail.html">Portfolio Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Team</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="our-team.html">Team 1</a></li>
-                                            <li><a href="our-team-detail.html">Team Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Services</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="services-1.html">Services 1</a></li>
-                                            <li><a href="services-2.html">Services 2</a></li>
-                                            <li><a href="services-detail.html">Services Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Galley</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="gallery-grid-1.html">Galley 1</a></li>
-                                            <li><a href="gallery-grid-2.html">Galley 2</a></li>
-                                            <li><a href="gallery-grid-3.html">Galley 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Error</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="error-403.html">Error 403</a></li>
-                                            <li><a href="error-404.html">Error 404</a></li>
-                                            <li><a href="error-500.html">Error 500</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Contact us</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="contact-1.html">Contact us 1</a></li>
-                                            <li><a href="contact-2.html">Contact us 2</a></li>
-                                            <li><a href="contact-3.html">Contact us 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">About</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about-1.html">About 1</a></li>
-                                            <li><a href="about-2.html">About 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">FAQ</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="faq-1.html">FAQ 1</a></li>
-                                            <li><a href="faq-2.html">FAQ 2</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript:;">Product<i class="fa fa-chevron-down"></i></a>
+                                <a href="javascript:;">SERVICES<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="product.html">Product</a></li>
                                     <li><a href="product-detail.html">Product Detail</a></li>
                                 </ul>
                             </li>
 
+                            <li>
+                                <a href="javascript:;">PROJET<i class="fa fa-chevron-down"></i></a>
+
+                            </li>
+
                             <li class="submenu-direction">
-                                <a href="javascript:;">Blog<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="javascript:;">Media</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-media-list.html">Media list</a></li>
-                                            <li><a href="blog-media-grid.html">Media grid</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">list</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-half-img.html">Half image</a></li>
-                                            <li><a href="blog-half-img-sidebar.html">Half image sidebar</a></li>
-                                            <li><a href="blog-half-img-left-sidebar.html">Half image sidebar left</a></li>
-                                            <li><a href="blog-large-img.html">Large image</a></li>
-                                            <li><a href="blog-large-img-sidebar.html">Large image sidebar</a></li>
-                                            <li><a href="blog-large-img-left-sidebar.html">Large image sidebar left</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid-2.html">Grid 2</a></li>
-                                            <li><a href="blog-grid-2-sidebar.html">Grid 2 sidebar</a></li>
-                                            <li><a href="blog-grid-2-sidebar-left.html">Grid 2 sidebar left</a></li>
-                                            <li><a href="blog-grid-3.html">Grid 3</a></li>
-                                            <li><a href="blog-grid-3-sidebar.html">Grid 3 sidebar</a></li>
-                                            <li><a href="blog-grid-3-sidebar-left.html">Grid 3 sidebar left</a></li>
-                                            <li><a href="blog-grid-4.html">Grid 4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Single</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-single.html">Single full</a></li>
-                                            <li><a href="blog-single-left-sidebar.html">Single sidebar</a></li>
-                                            <li><a href="blog-single-sidebar.html">Single sidebar right</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href="javascript:;">BLOG<i class="fa fa-chevron-down"></i></a>
+
                             </li>
                             <li>
-                                <a href="javascript:;">Features<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="header-style-1.html">Header 1</a></li>
-                                    <li><a href="header-style-2.html">Header 2</a></li>
-                                    <li><a href="header-style-3.html">Header 3</a></li>
-                                    <li><a href="header-style-4.html">Header 4</a></li>
-                                    <li><a href="header-style-5.html">Header 5</a></li>
-                                    <li><a href="footer-fixed.html">Footer Fixed</a></li>
-                                </ul>
+                                <a href="javascript:;">CONTACT<i class="fa fa-chevron-down"></i></a>
+
                             </li>
-                            <li class="has-mega-menu ">
-                                <a href="javascript:;">Shortcodes<i class="fa fa-chevron-down"></i></a>
-                                <ul class="mega-menu">
-                                    <li>
 
-                                        <ul>
-                                            <li><a href="shortcode-animations.html"><i class="fa fa-ravelry"></i> Animations</a></li>
-                                            <li><a href="shortcode-accordians.html"> <i class="fa fa-bars"></i>Accordians</a></li>
-                                            <li><a href="shortcode-alert-box.html"> <i class="fa fa-bell-o"></i>Alert box</a></li>
-                                            <li><a href="shortcode-buttons.html"> <i class="fa fa-toggle-on"></i>Buttons</a></li>
-                                            <li><a href="shortcode-client.html"> <i class="fa fa-group"></i>Clients</a></li>
-                                            <li><a href="shortcode-client-slider.html"> <i class="fa fa-drivers-license-o"></i>Clients slider</a></li>
-                                            <li><a href="shortcode-carousel-sliders.html"> <i class="fa fa-sliders"></i>Carousel sliders</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-
-                                        <ul>
-                                            <li><a href="shortcode-counters.html"> <i class="fa fa-calculator"></i>Counters</a></li>
-                                            <li><a href="shortcode-dividers.html"> <i class="fa fa-ellipsis-h"></i>Dividers</a></li>
-                                            <li><a href="shortcode-google-map.html"> <i class="fa fa-map-o"></i>Google map</a></li>
-                                            <li><a href="shortcode-icons.html"> <i class="fa fa-ellipsis-h"></i>Icons Shortcodes</a></li>
-                                            <li><a href="shortcode-icon-box.html"> <i class="fa fa-square-o"></i>Icon-box</a></li>
-                                            <li><a href="shortcode-icon-box-styles.html"> <i class="fa fa-square-o"></i>Icon box styles</a></li>
-                                            <li><a href="shortcode-image-box-content.html"> <i class="fa fa-address-card-o"></i>Image box content</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-
-                                        <ul>
-                                            <li><a href="shortcode-images-effects.html"> <i class="fa fa-photo"></i>Images effects</a></li>
-                                            <li><a href="shortcode-list-group.html"> <i class="fa fa-list-ol"></i>List group</a></li>
-                                            <li><a href="shortcode-modal-popup.html"> <i class="fa fa-window-maximize"></i>Modal popup</a></li>
-                                            <li><a href="shortcode-pagination.html"> <i class="fa fa-terminal"></i>Pagination</a></li>
-                                            <li><a href="shortcode-pricing-table.html"> <i class="fa fa-dollar"></i>Pricing table</a></li>
-                                            <li><a href="shortcode-toggles.html"> <i class="fa fa-plus-square-o"></i>Toggles</a></li>
-                                            <li><a href="shortcode-tooltips.html"> <i class="fa fa-window-maximize"></i>Tooltips</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-
-                                        <ul>
-                                            <li><a href="shortcode-tabs.html"> <i class="fa fa-th-list"></i>Tabs</a></li>
-                                            <li><a href="shortcode-table.html"> <i class="fa fa-table"></i>Table</a></li>
-                                            <li><a href="shortcode-testimonials.html"> <i class="fa fa-twitch"></i>Testimonials</a></li>
-                                            <li><a href="shortcode-testimonials-grid.html"> <i class="fa fa-twitch"></i>Testimonials grid</a></li>
-                                            <li><a href="shortcode-title-separators.html"> <i class="fa fa-ellipsis-h"></i>Title-separators</a></li>
-                                            <li><a href="shortcode-video.html"> <i class="fa fa-video-camera"></i>Video</a></li>
-                                            <li><a href="shortcode-all-widgets.html"> <i class="fa fa-retweet"></i>Widgets</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -412,7 +237,8 @@
         <!-- FOOTER START -->
             <footer class="site-footer footer-dark">
                 <!-- COLL-TO ACTION START -->
-                <div class="call-to-action-wrap call-to-action-skew" style="background-image:url(images/background/bg-4.png); background-repeat:repeat;background-color:#273447;">
+                <!-- COLL-TO ACTION START -->
+                <div class="call-to-action-wrap bg-primary" style="background-image:url(images/background/bg-4.png); background-repeat:repeat;">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-sm-8">
@@ -424,7 +250,7 @@
 
                             <div class="col-md-3">
                                 <div class="call-to-action-right p-tb30">
-                                    <a href="contact-1.html" class="site-button skew-icon-btn m-r15 text-uppercase"  style="font-weight:600;">
+                                    <a href="contact-1.html" class="site-button-secondry text-uppercase"  style="font-weight:600;">
                                         Contact us <i class="fa fa-angle-double-right"></i>
                                     </a>
                                 </div>
@@ -436,124 +262,7 @@
                 <div class="footer-top overlay-wraper">
                     <div class="overlay-main bg-black" style="opacity:0;"></div>
                     <div class="container">
-                        <div class="row">
-                            <!-- ABOUT COMPANY -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="widget widget_about">
-                                    <h4 class="widget-title">About Company</h4>
-                                    <div class="logo-footer clearfix p-b15">
-                                        <a href="index.html"><img src="images/logo.png" width="230" height="67" alt=""/></a>
-                                    </div>
-                                    <p>construct ipsum dolor sit amet, consectetuer adipiscing elit,
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat .
-                                        wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.
-                                        ipsum dolor sit amet, consectetuer adipiscing.ipsum dolor sit [...]
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- RESENT POST -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="widget recent-posts-entry-date">
-                                    <h4 class="widget-title">Resent Post</h4>
-                                    <div class="widget-post-bx">
-                                        <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                            <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                <strong>20</strong>
-                                                <span>Mar</span>
-                                            </div>
-                                            <div class="wt-post-info">
-                                                <div class="wt-post-header">
-                                                    <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                                </div>
-                                                <div class="wt-post-meta">
-                                                    <ul>
-                                                        <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                        <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                            <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                <strong>30</strong>
-                                                <span>Mar</span>
-                                            </div>
-                                            <div class="wt-post-info">
-                                                <div class="wt-post-header">
-                                                    <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                                </div>
-                                                <div class="wt-post-meta">
-                                                    <ul>
-                                                        <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                        <li class="post-comment"><i class="fa fa-comments"></i> 29</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                            <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                <strong>31</strong>
-                                                <span>Mar</span>
-                                            </div>
-                                            <div class="wt-post-info">
-                                                <div class="wt-post-header">
-                                                    <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                                </div>
-                                                <div class="wt-post-meta">
-                                                    <ul>
-                                                        <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                        <li class="post-comment"><i class="fa fa-comments"></i> 30</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- USEFUL LINKS -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="widget widget_services">
-                                    <h4 class="widget-title">Useful links</h4>
-                                    <ul>
-                                        <li><a href="about-1.html">About</a></li>
-                                        <li><a href="faq-1.html">FAQ</a></li>
-                                        <li><a href="career.html">Career</a></li>
-                                        <li><a href="our-team.html">Our Team</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="gallery-grid-1.html">Gallery</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- NEWSLETTER -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="widget widget_newsletter">
-                                    <h4 class="widget-title">Newsletter</h4>
-                                    <div class="newsletter-bx">
-                                        <form role="search" method="post">
-                                            <div class="input-group">
-                                                <input name="news-letter" class="form-control" placeholder="ENTER YOUR EMAIL" type="text">
-                                                <span class="input-group-btn">
-                                            <button type="submit" class="site-button"><i class="fa fa-paper-plane-o"></i></button>
-                                        </span>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <!-- SOCIAL LINKS -->
-                                <div class="widget widget_social_inks">
-                                    <h4 class="widget-title">Social Links</h4>
-                                    <ul class="social-icons social-square social-darkest">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
+
 
                             <div class="col-md-3 col-sm-6  p-tb20">
                                 <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
