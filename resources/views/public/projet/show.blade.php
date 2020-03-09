@@ -87,8 +87,10 @@
 
                             <div class="wt-post-text">
                                 <p>
-                                    Faites appel à BGC CONSTRUCTION pour tous vos travaux de construction et de rénovation. Nous mettons à votre disposition notre professionnalisme et notre savoir-faire pour répondre à vos besoins et vous fournir un travail sur mesure et de qualité.
-                                    Nos prestations pour vos constructions et rénovations: </p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolor enim laborum omnis recusandae repudiandae.
+                                    <br>
+                                    Beatae dolores enim esse <br>
+                                    id non provident quam qui, ratione repellendus vel! Iste, numquam soluta?  </p>
                                 <p>
                                     Maçonnerie <br>
                                     Etanchéité <br>

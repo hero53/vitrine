@@ -5,7 +5,7 @@
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">Blog large image with sidebar</h1>
+                <h1 class="text-white">Blog </h1>
             </div>
         </div>
     </div>
@@ -14,8 +14,8 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
-                <li><a href="javascript:void(0);">Home</a></li>
-                <li>Blog large image with sidebar</li>
+                <li><a href="javascript:void(0);">Accueil</a></li>
+                <li>Blog </li>
             </ul>
         </div>
     </div>
@@ -38,7 +38,7 @@
                         <div class="wt-post-info p-a30 p-b15  bg-white">
 
                             <div class="wt-post-title ">
-                                <h3 class="post-title"><a href="javascript:void(0);">Post Title</a></h3>
+                                <h3 class="post-title"><a href="javascript:void(0);">Titre de l'article</a></h3>
                             </div>
                             <div class="wt-post-meta ">
                                 <ul>
@@ -51,7 +51,7 @@
                                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
                             </div>
                             <div class="wt-post-readmore">
-                                <a href="{{route('blog.show')}}" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
+                                <a href="{{route('blog.show')}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
                             </div>
 
                         </div>
@@ -85,7 +85,7 @@
 
                         <!-- 7. OUR CLIENT -->
                         <div class="widget">
-                            <h4 class="widget-title">Our Client</h4>
+                            <h4 class="widget-title">Nos clients</h4>
                             <div class="owl-carousel widget-client p-t10">
 
                                 <!-- COLUMNS 1 -->

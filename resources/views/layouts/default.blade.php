@@ -78,8 +78,8 @@
                             <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
                         </ul>
                         <ul class="list-unstyled e-p-bx pull-right">
-                            <li><i class="fa fa-envelope"></i>mail@startuprr.com</li>
-                            <li><i class="fa fa-phone"></i>(888) 123-4567</li>
+                            <li><i class="fa fa-envelope"></i>info.bhex@gmail.com</li>
+                            <li><i class="fa fa-phone"></i>(+225) 58 83 46 11/(+225) 44 50 75 22</li>
                         </ul>
 
                     </div>
@@ -105,16 +105,7 @@
                     </button>
 
                     <!-- SITE Search AREA -->
-                    <div class="site-search">
-                        <form action="#">
-                            <div class="input-group">
-                                <input name="site-search" type="text" class="form-control" placeholder="Type to search">
-                                <span class="input-group-btn">
-                                        <button type="button" class="site-button"><i class="fa fa-search"></i></button>
-                                    </span>
-                            </div>
-                        </form>
-                    </div>
+
                     <!-- MAIN NAV -->
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
@@ -173,15 +164,14 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-8">
                                 <div class="call-to-action-left p-tb20 p-r50">
-                                    <h4 class="text-uppercase m-b10">We are ready to build your dream tell us more about your project</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+                                    <h4 class="text-uppercase m-b10">NOUS SOMMES PRÊTS À CONSTRUIRE VOTRE RÊVE, PARLEZ-NOUS DE VOTRE PROJET</h4>
                                 </div>
                             </div>
 
                             <div class="col-md-3">
                                 <div class="call-to-action-right p-tb30">
                                     <a href="contact-1.html" class="site-button-secondry text-uppercase"  style="font-weight:600;">
-                                        Contact us <i class="fa fa-angle-double-right"></i>
+                                        NOUS CONTACTER  <i class="fa fa-angle-double-right"></i>
                                     </a>
                                 </div>
                             </div>
@@ -201,7 +191,7 @@
                                     </div>
                                     <div class="icon-content">
                                         <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                        <p>No.123 Chalingt Gates, Supper market New York</p>
+                                        <p>Abidjan, Yopougon Attié (Keneya)</p>
                                     </div>
                                 </div>
                             </div>
@@ -212,8 +202,13 @@
                                     </div>
                                     <div class="icon-content">
                                         <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                        <p class="m-b0">+41 555 888 9585</p>
-                                        <p>+41 555 888 9585</p>
+                                        <p class="m-b0">+225 58 83 46 11 </p>
+                                        <p class="m-b0">+225 44 50 75 22</p>
+                                        <p class="m-b0">+226 78 52 33 65 </p>
+                                        <p class="m-b0">+226 70 78 29 80</p>
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -236,8 +231,8 @@
                                     </div>
                                     <div class="icon-content">
                                         <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                        <p class="m-b0">info@demo.com</p>
-                                        <p>info@demo1234.com</p>
+                                        <p class="m-b0">info.bhex@gmail.com</p>
+
                                     </div>
                                 </div>
                             </div>

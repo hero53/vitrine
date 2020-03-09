@@ -5,11 +5,11 @@
     <div class="page-content">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/Portfolio.jpg);">
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/Blue-Hill-Exploration-architect-architecture-blueprint-build-271667.jpg);">
             <div class="overlay-main bg-black" style="opacity:0.5;"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Portfolio 3</h1>
+                    <h1 class="text-white">Projet</h1>
                 </div>
             </div>
         </div>
@@ -19,8 +19,8 @@
         <div class="bg-gray-light p-tb20">
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-1">
-                    <li><a href="javascript:void(0);">Home</a></li>
-                    <li>Portfolio 1</li>
+                    <li><a href="javascript:void(0);">Accueil</a></li>
+                    <li>Projet</li>
                 </ul>
             </div>
         </div>

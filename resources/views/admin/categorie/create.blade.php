@@ -1,9 +1,6 @@
 @extends('layouts.admin')
+
 @section('content')
-    ok <br>
-    ok <br>
-    ok <br>
-    ok <br>
-    ok <br>
+    <h1 class="h3 mb-1 text-gray-800 text-center">Créer une categorie de blog</h1>
 
 @endsection

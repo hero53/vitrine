@@ -28,7 +28,28 @@ Route::get('/detail','Projet\ProjetsController@show')->name('projet.show');
 
 //for admin
 Route::get('/admin','Admin\PageController@index')->name('admin');
+
 Route::get('/categorie','Admin\CategorieController@index')->name('categorie.index');
+Route::get('/categorie&create','Admin\CategorieController@index')->name('categorie.create');
+Route::get('/categorie&show','Admin\CategorieController@show')->name('categorie.show');
+Route::get('/categorie&create','Admin\CategorieController@create')->name('categorie.create');
+Route::get('/categorie&store','Admin\CategorieController@store')->name('categorie.store');
+Route::get('/categorie&edit','Admin\CategorieController@edit')->name('categorie.edit');
+Route::get('/categorie&update','Admin\CategorieController@update')->name('categorie.update');
+Route::get('/categorie&destroy','Admin\CategorieController@destroy')->name('categorie.destroy');
+
+Route::get('/blog&admin','Admin\BlogController@index')->name('admin.blog.index');
+Route::get('/blog&create','Admin\BlogController@index')->name('admin.blog.create');
+Route::get('/blog&show','Admin\BlogController@show')->name('admin.blog.show');
+Route::get('/blog&create','Admin\BlogController@create')->name('admin.blog.create');
+Route::get('/blog&store','Admin\BlogController@store')->name('admin.blog.store');
+Route::get('/blog&edit','Admin\BlogController@edit')->name('admin.blog.edit');
+Route::get('/blog&update','Admin\blogController@update')->name('admin.blog.update');
+Route::get('/blog&destroy','Admin\BlogController@destroy')->name('admin.blog.destroy');
+
+
+
+
 
 
 

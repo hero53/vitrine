@@ -16,7 +16,7 @@
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
-                                <div class="tp-caption tp-shape tp-shapewrapper "
+                                <div class="tp-caption tp-shape tp-shapewrapper"
                                      id="slide-100-layer-1"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
@@ -66,7 +66,7 @@
                                      style="z-index: 13;
                                         white-space: normal;
                                         font-weight: 700;
-                                        color: rgba(255, 255, 255, 1.00);
+                                        color: #273447;
                                         border-width:0px;">
                                     <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">We Build </span> Your Dream</span>
                                 </div>
@@ -443,23 +443,31 @@
             <div class="row">
                 <div class="col-md-5 col-sm-5">
                     <div class="about-com-pic">
-                        <img src="images/pic-c-1.png" alt="" class="img-responsive"/>
+                        <img src="images/Blue-Hill Exploration-backhoe-bucket-barren-dirt-dirty-461789.jpg" alt="" class="img-responsive"/>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-7">
                     <div class="section-head text-left">
-                        <h2 class="text-uppercase">About Company </h2>
+                        <h2 class="text-uppercase">À PROPOS DE LA SOCIÉTÉ </h2>
                         <div class="wt-separator-outer">
                             <div class="wt-separator style-square">
                                 <span class="separator-left bg-primary"></span>
                                 <span class="separator-right bg-primary"></span>
                             </div>
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown  galley.
+                        <p>Blue-Hill Exploration SARL est une entreprise de consultance. Elle est créée et <br>
+                            dirigée par d’anciens chefs de projets miniers, de géologues séniors et géologues <br>
+                            de projet ayant déjà travaillé pour plusieurs entreprises minières et sur divers projets
+                            <br>
+                            en Afrique de l’Ouest et dans le monde.
                         </p>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the [...]
+                            Blue-Hill Exploration SARL comprend des professionnels dynamiques et expérimentés (géologues,chercheurs, ingénieurs et techniciens)<br>
+                            de domaines multidisciplinaires qui travaillent <br>
+                            ensemble dans un esprit d’équipe pour assurer un service de qualité au client dans divers domaines :
+                        </p>
+                        <p>
+
                         </p>
                     </div>
                     <div class="about-types row">
@@ -469,7 +477,7 @@
                                     <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Building</h5>
+                                    <h5 class="wt-tilte text-uppercase m-b0">Contruction</h5>
                                     <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
                                 </div>
                             </div>
@@ -491,7 +499,7 @@
                                     <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0 ">Digging</h5>
+                                    <h5 class="wt-tilte text-uppercase m-b0 ">Exploration</h5>
                                     <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
                                 </div>
                             </div>
@@ -502,12 +510,59 @@
                                     <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">interior</h5>
+                                    <h5 class="wt-tilte text-uppercase m-b0">Forage</h5>
                                     <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="about-types row">
+                        <div class="col-md-6 col-sm-6 p-tb20">
+                            <div class="wt-icon-box-wraper left p-l20  bdr-1 bdr-gray-light">
+                                <div class="icon-sm text-primary">
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase m-b0">Agro-industrie </h5>
+                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 p-tb20 ">
+                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
+                                <div class="icon-sm text-primary">
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase m-b0">Renovation</h5>
+                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 p-tb20 ">
+                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
+                                <div class="icon-sm text-primary">
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase m-b0 "> Environnement </h5>
+                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 p-tb20 ">
+                            <div class="wt-icon-box-wraper left p-l20 bdr-1 bdr-gray-light">
+                                <div class="icon-sm text-primary">
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase m-b0">Import-Export </h5>
+                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -712,7 +767,7 @@
         <div class="container">
             <!-- TITLE START-->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">Why Choose us</h2>
+                <h2 class="text-uppercase">POURQUOI NOUS CHOISIR</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
@@ -732,9 +787,9 @@
                                 <a href="#" class="icon-cell"><i class="fa fa-life-ring" aria-hidden="true"></i></a>
                             </div>
                             <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase">BEST QUALITY</h5>
+                                <h5 class="wt-tilte text-uppercase">MEILLEURE QUALITE</h5>
                                 <div class="wt-separator bg-primary"></div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus [...]</p>
+                                <p>BHEX SARL regorge d’un personnel qualifié, de haut niveau avec plusieurs années d’expériences acquises dans des compagnies nationales et internationales. </p>
                             </div>
                         </div>
                     </div>
@@ -745,9 +800,9 @@
                                 <a href="#" class="icon-cell"><i class="fa fa-trophy" aria-hidden="true"></i></a>
                             </div>
                             <div class="icon-content ">
-                                <h5 class="wt-tilte text-uppercase">INTEGRITY</h5>
+                                <h5 class="wt-tilte text-uppercase">EXPERIENCE</h5>
                                 <div class="wt-separator bg-primary"></div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus [...]</p>
+                                <p>BHEX SARL (Blue-Hill Exploration) est une structure spécialisée dans l’Expertise et la Consultance dans divers domaines des Géosciences. BHEX est basée en Côte d’Ivoire et au Burkina Faso, et exerce dans toute l’Afrique de l’Ouest.</p>
                             </div>
                         </div>
                     </div>
@@ -758,7 +813,7 @@
                                 <a href="#" class="icon-cell"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
                             </div>
                             <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase">STRATEGY</h5>
+                                <h5 class="wt-tilte text-uppercase">STRATEGIe</h5>
                                 <div class="wt-separator bg-primary"></div>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus [...]</p>
                             </div>
@@ -770,149 +825,13 @@
         </div>
     </div>
     <!-- WHY CHOOSE US SECTION END  -->
-    <!-- OUR TEAM MEMBER SECTION START -->
-    <div class="section-full text-center wt-our-team bg-white p-t80" style="background-image:url(images/background/bg-8.jpg); background-repeat:no-repeat; background-position:bottom center;">
-        <div class="container">
 
-            <!-- TITTLE START -->
-            <div class="section-head text-center">
-                <h2 class="text-uppercase">Our team</h2>
-                <div class="wt-separator-outer">
-                    <div class="wt-separator style-square">
-                        <span class="separator-left bg-primary"></span>
-                        <span class="separator-right bg-primary"></span>
-                    </div>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-            <!-- TITLE END -->
-
-            <div class="section-content">
-                <div class="wt-team-five-warper  clearfix">
-
-                    <!-- COLUMNS 1 -->
-                    <div class="wt-col-5 team-col-one">
-                        <div class="wt-team-five">
-                            <div class="wt-team-media">
-                                <a href="#"><img src="images/our-team3/pic1.png" alt="" ></a>
-                            </div>
-                            <div class="wt-team-info">
-                                <div class="p-a20 bg-primary ">
-                                    <h4 class="wt-team-title text-uppercase m-a0 m-b10"><a href="#">Richard Wagner</a></h4>
-                                    <div class="wt-team-position">Building Worker</div>
-                                </div>
-                                <div class="p-a20 bg-black wt-arrow-up">
-                                    <ul class="social-icons social-square social-dark white-border m-a0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 2 -->
-                    <div class="wt-col-5 team-col-two">
-                        <div class="wt-team-five">
-                            <div class="wt-team-media">
-                                <a href="#"><img src="images/our-team3/pic2.png" alt="" ></a>
-                            </div>
-                            <div class="wt-team-info">
-                                <div class="p-a20 bg-primary ">
-                                    <h4 class="wt-team-title text-uppercase m-a0 m-b10"><a href="#">Richard Wagner</a></h4>
-                                    <div class="wt-team-position">Building Worker</div>
-                                </div>
-                                <div class="p-a20 bg-black wt-arrow-up">
-                                    <ul class="social-icons social-square social-dark white-border m-a0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 3 -->
-                    <div class="wt-col-5 team-col-three wt-team-active">
-                        <div class="wt-team-five">
-                            <div class="wt-team-media">
-                                <a href="#"><img src="images/our-team3/pic3.png" alt="" ></a>
-                            </div>
-                            <div class="wt-team-info">
-                                <div class="p-a20 bg-primary ">
-                                    <h4 class="wt-team-title text-uppercase m-a0 m-b10"><a href="#">Richard Wagner</a></h4>
-                                    <div class="wt-team-position">Building Worker</div>
-                                </div>
-                                <div class="p-a20 bg-black wt-arrow-up">
-                                    <ul class="social-icons social-square social-dark white-border m-a0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 4 -->
-                    <div class="wt-col-5  team-col-four">
-                        <div class="wt-team-five">
-                            <div class="wt-team-media">
-                                <a href="#"><img src="images/our-team3/pic4.png" alt="" ></a>
-                            </div>
-                            <div class="wt-team-info">
-                                <div class="p-a20 bg-primary ">
-                                    <h4 class="wt-team-title text-uppercase m-a0 m-b10"><a href="#">Richard Wagner</a></h4>
-                                    <div class="wt-team-position">Building Worker</div>
-                                </div>
-                                <div class="p-a20 bg-black wt-arrow-up">
-                                    <ul class="social-icons social-square social-dark white-border m-a0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 5 -->
-                    <div class="wt-col-5 team-col-five">
-                        <div class="wt-team-five">
-                            <div class="wt-team-media">
-                                <a href="#"><img src="images/our-team3/pic5.png" alt="" ></a>
-                            </div>
-                            <div class="wt-team-info">
-                                <div class="p-a20 bg-primary ">
-                                    <h4 class="wt-team-title text-uppercase m-a0 m-b10"><a href="#">Richard Wagner</a></h4>
-                                    <div class="wt-team-position">Building Worker</div>
-                                </div>
-                                <div class="p-a20 bg-black wt-arrow-up">
-                                    <ul class="social-icons social-square social-dark white-border m-a0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- OUR TEAM MEMBER SECTION END -->
     <!-- LATEST BLOG SECTION START -->
     <div class="section-full latest-blog bg-gray p-t80 p-b50">
         <div class="container">
             <!-- TITLE -->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">Latest blog post</h2>
+                <h2 class="text-uppercase">DERNIER ARTICLE DE BLOG</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
@@ -933,7 +852,7 @@
                             </div>
                             <div class="wt-post-info p-a30 p-b20 bg-white">
                                 <div class="wt-post-title ">
-                                    <h3 class="post-title"><a href="javascript:;">Title of first blog post</a></h3>
+                                    <h3 class="post-title"><a href="javascript:;">Titre du premier article de blog</a></h3>
                                 </div>
                                 <div class="wt-post-meta ">
                                     <ul>
@@ -1007,7 +926,7 @@
         <div class="overlay-main bg-black" style="opacity:0.6;"></div>
         <div class="container">
             <div class="section-head text-white text-center">
-                <h2 class="text-uppercase">What Our Client Say</h2>
+                <h2 class="text-uppercase">CE QUE DISENT NOS CLIENTS</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square has-bg">
                         <span class="separator-left bg-primary"></span>
@@ -1109,7 +1028,7 @@
 
             <!-- TITLE START -->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">Our Client</h2>
+                <h2 class="text-uppercase">NOS CLIENTS</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>

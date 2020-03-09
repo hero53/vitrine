@@ -33,8 +33,10 @@
                                             </span>
                         </div>
                         <div class="icon-content">
-                            <h5>Phone</h5>
-                            <p>+91 564 548 4854</p>
+                            <h5>Téléphone</h5>
+                            <p>+225 58 83 46 11 </p>
+                            <p>+225 44 50 75 22 </p>
+
                         </div>
                     </div>
                 </div>
@@ -48,7 +50,7 @@
                         </div>
                         <div class="icon-content">
                             <h6>Email</h6>
-                            <p>demo@gmail.com</p>
+                            <p>info.bhex@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -61,8 +63,8 @@
                                         </span>
                         </div>
                         <div class="icon-content">
-                            <h5>Address</h5>
-                            <p>252 W 43rd St New York, NY</p>
+                            <h5>Adresse</h5>
+                            <p>Abidjan, Yopougon Attié (Keneya)</p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +74,7 @@
 
         <!-- CONTACT FORM -->
         <div class="p-lr30">
-            <h4 class="text-uppercase">Contact Form </h4>
+            <h4 class="text-uppercase">FORMULAIRE DE CONTACT </h4>
             <div class="wt-separator-outer m-b30">
                 <div class="wt-separator style-square">
                     <span class="separator-left bg-primary"></span>
@@ -115,8 +117,8 @@
                     </div>
 
                     <div class="col-md-12 text-right">
-                        <button name="submit" type="submit" value="Submit" class="site-button skew-icon-btn m-r15">Submit <i class="fa fa-angle-double-right"></i></button>
-                        <button name="Resat" type="reset" value="Reset"  class="site-button skew-icon-btn" >Reset <i class="fa fa-angle-double-right"></i></button>
+                        <button name="submit" type="submit" value="Submit" class="site-button skew-icon-btn m-r15">Soumettre  <i class="fa fa-angle-double-right"></i></button>
+                        <button name="Resat" type="reset" value="Reset"  class="site-button skew-icon-btn" >Réinitialiser <i class="fa fa-angle-double-right"></i></button>
                     </div>
 
                 </div>

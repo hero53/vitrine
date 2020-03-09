@@ -4,11 +4,11 @@
     <div class="page-content  bg-white">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/services.jpg);">
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/Blue-Hill-Exploration-person-holding-grinder-1216544.jpg);">
             <div class="overlay-main bg-black" style="opacity:0.5;"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Services 2</h1>
+                    <h1 class="text-white">Services</h1>
                 </div>
             </div>
         </div>
@@ -18,8 +18,8 @@
         <div class="bg-gray-light p-tb20">
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-1">
-                    <li><a href="javascript:void(0);">Home</a></li>
-                    <li>Services 2</li>
+                    <li><a href="javascript:void(0);">Accueil</a></li>
+                    <li>Services</li>
                 </ul>
             </div>
         </div>
@@ -30,7 +30,7 @@
             <div class="container">
                 <!-- TITLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">Our Projects</h2>
+                    <h2 class="text-uppercase">Nos servises</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left bg-primary"></span>
@@ -48,10 +48,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic1.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-construction-excavator-bagger-building-site-14651.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Shopping Mall</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Exploration</a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -61,10 +61,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic2.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-tower-crane-during-daytime-93400.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Hospital Building</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Bâtiments et Travaux Publics </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -74,10 +74,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic3.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-cable-clouds-current-electricity-414967.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Garden House</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Ingénierie en Electricité et Télécom </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -87,10 +87,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic4.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-aerial-photo-of-excavator-road-roller-and-bulldozer-1579356.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Pyramid Design</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Forage, Hydraulique et Géophysique </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -100,10 +100,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic5.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-three-yellow-excavators-near-front-end-loader-1238864.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Swimming Pool</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Exploitation minière et Pétrolière </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -113,10 +113,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic6.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-assorted-vegetable-store-displays-2252584.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Bridge</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Agriculture et Agro-industrie </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -126,10 +126,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic7.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-closeup-photo-of-sprout-1002703.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Highway</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Eau, Sol et Environnement </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -139,10 +139,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic8.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-black-concrete-biulding-51325.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Dam</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Commerce, Import-Export </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn ">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
@@ -152,10 +152,10 @@
                         <div class="col-md-4 col-sm-4 p-tb15">
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
-                                    <a href="javascript:void(0);"><img src="images/our-work/pic1.jpg" alt=""></a>
+                                    <a href="javascript:void(0);"><img src="images/Blue-Hill-Exploration-books-classroom-close-up-college-289737.jpg" alt=""></a>
                                 </div>
                                 <div class="wt-info p-a30 bg-gray">
-                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Electric</a></h4>
+                                    <h4 class="wt-title m-t0"><a href="javascript:void(0);">Formation et Encadrement Technique </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
                                     <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
