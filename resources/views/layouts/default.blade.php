@@ -170,7 +170,7 @@
 
                             <div class="col-md-3">
                                 <div class="call-to-action-right p-tb30">
-                                    <a href="contact-1.html" class="site-button-secondry text-uppercase"  style="font-weight:600;">
+                                    <a href="{{route('contact')}}" class="site-button-secondry text-uppercase"  style="font-weight:600;">
                                         NOUS CONTACTER  <i class="fa fa-angle-double-right"></i>
                                     </a>
                                 </div>
@@ -182,60 +182,66 @@
                 <div class="footer-top overlay-wraper">
                     <div class="overlay-main bg-black" style="opacity:0;"></div>
                     <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-2 ">
 
-
-                            <div class="col-md-3 col-sm-6  p-tb20">
-                                <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                    <div class="icon-md text-primary">
-                                        <span class="flaticon-placeholder"></span>
+                                <div class="col-md-3 col-sm-6  p-tb20">
+                                    <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                                        <div class="icon-md text-primary">
+                                            <span class="flaticon-placeholder"></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
+                                            <p>Abidjan, Yopougon Attié (Keneya)</p>
+                                        </div>
                                     </div>
-                                    <div class="icon-content">
-                                        <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                        <p>Abidjan, Yopougon Attié (Keneya)</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6  p-tb20 ">
+                                    <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
+                                        <div class="icon-md text-primary">
+                                            <span class="flaticon-smartphone"></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
+                                            <p class="m-b0">+225 58 83 46 11 </p>
+                                            <p class="m-b0">+225 44 50 75 22</p>
+                                            <p class="m-b0">+226 78 52 33 65 </p>
+                                            <p class="m-b0">+226 70 78 29 80</p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  <div class="col-md-3 col-sm-6  p-tb20">
+                                     <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                                         <div class="icon-md text-primary">
+                                             <span class="flaticon-fax"></span>
+                                         </div>
+                                         <div class="icon-content">
+                                             <h5 class="wt-tilte text-uppercase m-b0">Fax</h5>
+                                             <p class="m-b0">FAX: (123) 123-4567</p>
+                                             <p>FAX: (123) 123-4567</p>
+                                         </div>
+                                     </div>
+                                 </div> -->
+                                <div class="col-md-3 col-sm-6 p-tb20">
+                                    <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                                        <div class="icon-md text-primary">
+                                            <span class="flaticon-email"></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
+                                            <p class="m-b0">info.bhex@gmail.com</p>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6  p-tb20 ">
-                                <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
-                                    <div class="icon-md text-primary">
-                                        <span class="flaticon-smartphone"></span>
-                                    </div>
-                                    <div class="icon-content">
-                                        <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                        <p class="m-b0">+225 58 83 46 11 </p>
-                                        <p class="m-b0">+225 44 50 75 22</p>
-                                        <p class="m-b0">+226 78 52 33 65 </p>
-                                        <p class="m-b0">+226 70 78 29 80</p>
+                        </div>
 
 
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6  p-tb20">
-                                <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                    <div class="icon-md text-primary">
-                                        <span class="flaticon-fax"></span>
-                                    </div>
-                                    <div class="icon-content">
-                                        <h5 class="wt-tilte text-uppercase m-b0">Fax</h5>
-                                        <p class="m-b0">FAX: (123) 123-4567</p>
-                                        <p>FAX: (123) 123-4567</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 p-tb20">
-                                <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                    <div class="icon-md text-primary">
-                                        <span class="flaticon-email"></span>
-                                    </div>
-                                    <div class="icon-content">
-                                        <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                        <p class="m-b0">info.bhex@gmail.com</p>
-
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>

@@ -37,8 +37,7 @@
                             <span class="separator-right bg-primary"></span>
                         </div>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book has survived.</p>
+
                 </div>
                 <!-- TITLE END -->
                 <div class="section-content">
@@ -53,7 +52,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Exploration</a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +65,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Bâtiments et Travaux Publics </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +78,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Ingénierie en Electricité et Télécom </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +91,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Forage, Hydraulique et Géophysique </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +104,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Exploitation minière et Pétrolière </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +117,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Agriculture et Agro-industrie </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +130,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Eau, Sol et Environnement </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +143,7 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Commerce, Import-Export </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn ">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn ">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -157,26 +156,14 @@
                                 <div class="wt-info p-a30 bg-gray">
                                     <h4 class="wt-title m-t0"><a href="javascript:void(0);">Formation et Encadrement Technique </a></h4>
                                     <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius [...] </p>
-                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">More<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="javascript:void(0);" class="site-button skew-icon-btn">Voir plus<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <!-- PAGINATION START -->
-                <div class="pagination-bx  clearfix ">
-                    <ul class = "custom-pagination pagination">
-                        <li><a href = "#">&laquo;</a></li>
-                        <li class = "active"><a href = "#">1</a></li>
-                        <li><a href = "#">2</a></li>
-                        <li><a href = "#">3</a></li>
-                        <li><a href = "#">4</a></li>
-                        <li><a href = "#">5</a></li>
-                        <li><a href = "#">&raquo;</a></li>
-                    </ul>
-                </div>
-                <!-- PAGINATION END -->
+
             </div>
         </div>
         <!-- SECTION CONTENT END -->
