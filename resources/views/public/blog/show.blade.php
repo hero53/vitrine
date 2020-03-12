@@ -26,6 +26,7 @@
         <div class="container">
 
             <!-- BLOG START -->
+
             <div class="blog-post date-style-1 blog-post-single">
                 <div class="wt-post-media wt-img-effect">
                     <a href="javascript:void(0);"><img src="images/blog/default/thum1.jpg" alt=""></a>

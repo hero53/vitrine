@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Blog;
 
 use App\Http\Controllers\Controller;
+use App\Model\Article;
 use Illuminate\Http\Request;
+
 
 class BlogController extends Controller
 {
@@ -15,7 +17,9 @@ class BlogController extends Controller
     public function index()
     {
         //
-        return view('public.blog.index');
+
+        $articles=Article::with('category')->get();
+        return view('public.blog.index',compact('articles'));
     }
 
     /**
@@ -45,10 +49,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show(Article $article)
     {
         //
-        return view('public.blog.show');
+        $articles=$article;
+        return view('public.blog.show',compact('articles'));
     }
 
     /**

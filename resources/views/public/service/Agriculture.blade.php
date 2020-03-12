@@ -5,7 +5,7 @@
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">CONSTRUCTION DE BATIMENTS</h1>
+                <h1 class="text-white">Agriculture et Agro-industrie</h1>
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
                 <li><a href="/nos-services">Services</a></li>
-                <li>Construction de Batiments</li>
+                <li>Agriculture et Agro-industrie</li>
             </ul>
         </div>
     </div>
@@ -82,7 +82,7 @@
                         </div>
                         <div class="post-description-area p-t30">
                             <div class="wt-post-title ">
-                                <h3 class="post-title"><a href="javascript:void(0);">Bâtiments : travaux neufs et rénovations</a></h3>
+                                <h3 class="post-title"><a href="javascript:void(0);">Agriculture et Agro-industrie</a></h3>
                             </div>
 
                             <div class="wt-post-text">

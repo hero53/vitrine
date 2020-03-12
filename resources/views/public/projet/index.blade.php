@@ -29,7 +29,8 @@
         <!-- SECTION CONTENT START -->
         <div class="section-full p-t80 p-b50">
 
-            <!-- PAGINATION START -->
+            {{--
+              <!-- PAGINATION START -->
             <div class="filter-wrap p-a15">
                 <ul class="masonry-filter link-style  text-uppercase">
                     <li class="active"><a data-filter="*" href="#">All</a></li>
@@ -40,7 +41,8 @@
                     <li><a data-filter=".interior" href="#">Interior</a></li>
                 </ul>
             </div>
-            <!-- PAGINATION END -->
+            <!-- PAGINATION END -->--}}
+
 
             <!-- GALLERY CONTENT START -->
             <div class="portfolio-wrap mfp-gallery no-col-gap clearfix">

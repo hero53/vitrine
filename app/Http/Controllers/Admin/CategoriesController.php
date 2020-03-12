@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Model\Category;
 
-class CategorieController extends Controller
+class CategoriesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +16,8 @@ class CategorieController extends Controller
     public function index()
     {
         //
-        return view('admin.categorie.index');
+        $categories=Category::all();
+        return view('admin.categories.index',compact('categories'));
 
     }
 
@@ -27,7 +29,7 @@ class CategorieController extends Controller
     public function create()
     {
         //
-        return view('admin.categorie.create');
+        return view('admin.categories.create');
 
     }
 
@@ -40,6 +42,14 @@ class CategorieController extends Controller
     public function store(Request $request)
     {
         //
+        $dataCategory=$request->validate([
+            'title'=>'required|min:3',
+            'description'=>'nullable'
+        ]);
+        Category::create($dataCategory);
+        return redirect()->back();
+
+
     }
 
     /**
@@ -82,8 +92,12 @@ class CategorieController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Category $category)
     {
         //
+        $d=Category::destroy($category->id);
+        dd($d);
+        return redirect()->back();
+
     }
 }

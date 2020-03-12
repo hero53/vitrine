@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Model\Category;
+use App\Model\Article;
 
 class BlogController extends Controller
 {
@@ -15,7 +17,13 @@ class BlogController extends Controller
     public function index()
     {
         //
-        return view('admin.blog.index');
+
+    }
+    public function indexadmin()
+    {
+        //
+        $articles=Article::with('category')->get();
+        return view('admin.blog.index',compact('articles'));
     }
 
     /**
@@ -26,7 +34,8 @@ class BlogController extends Controller
     public function create()
     {
         //
-        return view('admin.blog.create');
+        $category=Category::all();
+        return view('admin.blog.create',compact('category'));
 
     }
 
@@ -38,7 +47,25 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
+
+
         //
+       $data=request()->validate([
+            'title'=>['required'],
+            'category_id'=>['required'],
+            'img'=>['required','image'],
+            'article'=>['required']
+        ]);
+
+        $imglien=request('img')->store('uploads','public');
+        Article::create([
+            'title'=>$data['title'],
+            'category_id'=>$data['category_id'],
+            'img'=>$imglien,
+            'article'=>$data['article']
+        ]);
+
+        return redirect()->back();
     }
 
     /**
@@ -47,9 +74,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Article $articles)
     {
         //
+
+        return view('admin.blog.show',compact('articles'));
     }
 
     /**
@@ -81,8 +110,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Article $articles)
     {
         //
+        Article::destroy($articles->id);
+        return redirect()->back();
+
     }
 }

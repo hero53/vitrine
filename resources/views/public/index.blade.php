@@ -474,7 +474,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20">
                             <div class="wt-icon-box-wraper left p-l20  bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-golden-gate-bridge" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Contruction</h5>
@@ -485,7 +485,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-caution" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Renovation</h5>
@@ -496,7 +496,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-1" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0 ">Exploration</h5>
@@ -507,7 +507,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-transport-1" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Forage</h5>
@@ -520,7 +520,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20">
                             <div class="wt-icon-box-wraper left p-l20  bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-15" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Agro-industrie </h5>
@@ -531,10 +531,10 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-technology" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Renovation</h5>
+                                    <h5 class="wt-tilte text-uppercase m-b0">Electricité et Télécom </h5>
                                     <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
                                 </div>
                             </div>
@@ -542,7 +542,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-10" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0 "> Environnement </h5>
@@ -553,7 +553,7 @@
                         <div class="col-md-6 col-sm-6 p-tb20 ">
                             <div class="wt-icon-box-wraper left p-l20 bdr-1 bdr-gray-light">
                                 <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-transport" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Import-Export </h5>
@@ -562,13 +562,14 @@
                             </div>
                         </div>
                     </div>
-
+                    <button class="p-r15 site-button skew-icon-btn button-lg m-r15" type="button">Nos services <i class="fa fa-angle-double-right"></i></button>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- ABOUT COMPANY SECTION END -->
-    <!-- LATEST PROJECT SECTION START -->
+    {{--<!-- LATEST PROJECT SECTION START -->
     <div class="section-full p-t80" style="background-image:url(images/background/bg-4.png); background-repeat:repeat;background-color:#273447; ">
         <div class="overlay-main"></div>
         <div class="container">
@@ -761,7 +762,9 @@
             </div>
         </div>
     </div>
-    <!-- LATEST PROJECT SECTION END -->
+    <!-- LATEST PROJECT SECTION END -->--}}
+
+
     <!-- WHY CHOOSE US SECTION START  -->
     <div class="section-full bg-white p-t80 p-b50 ">
         <div class="container">

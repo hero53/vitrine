@@ -40,7 +40,7 @@ class ServiceController extends Controller
     public function exploitation()
     {
         //
-        return view('public.service.Expoitation');
+        return view('public.service.Exploration');
     }
     public function forage()
     {
@@ -55,7 +55,7 @@ class ServiceController extends Controller
     public function ingenierie()
     {
         //
-        return view('public.service.Ingierie');
+        return view('public.service.Ingenierie');
     }
     public function mine()
     {

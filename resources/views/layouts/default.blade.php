@@ -116,14 +116,15 @@
                             <li>
                                 <a href="{{route('service')}}">SERVICES<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="product.html">Exploration et Exploitation minière et Pétrolière </a></li>
-                                    <li><a href="product.html">Bâtiments et Travaux Publics </a></li>
-                                    <li><a href="product.html">Ingénierie en Electricité et Télécom </a></li>
-                                    <li><a href="product.html">Forage, Hydraulique et Géophysique </a></li>
-                                    <li><a href="product.html">Agriculture et Agro-industrie </a></li>
-                                    <li><a href="product.html">Eau, Sol et Environnement </a></li>
-                                    <li><a href="product.html">Commerce, Import-Export </a></li>
-                                    <li><a href="product.html">Formation et Encadrement Technique </a></li>
+                                    <li><a href="{{route('exploration')}}">Exploration</a></li>
+                                    <li><a href="{{route('mine')}}">Exploitation minière et Pétrolière </a></li>
+                                    <li><a href="{{route('batiment')}}">Bâtiments et Travaux Publics </a></li>
+                                    <li><a href="{{route('ingenierie')}}">Ingénierie en Electricité et Télécom </a></li>
+                                    <li><a href="{{route('forage')}}">Forage, Hydraulique et Géophysique </a></li>
+                                    <li><a href="{{route('agriculture')}}">Agriculture et Agro-industrie </a></li>
+                                    <li><a href="{{route('eau')}}">Eau, Sol et Environnement </a></li>
+                                    <li><a href="{{route('commerce')}}">Commerce, Import-Export </a></li>
+                                    <li><a href="{{route('formation')}}">Formation et Encadrement Technique </a></li>
                                 </ul>
                             </li>
 

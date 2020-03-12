@@ -30,33 +30,37 @@
 
 
                     <!-- COLUMNS 4 -->
-                    <div class="blog-post blog-lg date-style-1">
+                    @foreach($articles as $article)
+                        <div class="blog-post blog-lg date-style-1">
 
-                        <div class="wt-post-media wt-img-effect zoom-slow">
-                            <a href="javascript:void(0);"><img src="images/blog/default/thum4.jpg" alt=""></a>
+                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                <a href="javascript:void(0);"><img src="images/blog/default/thum4.jpg" alt=""></a>
+                            </div>
+
+                            <div class="wt-post-info p-a30 p-b15  bg-white">
+
+                                <div class="wt-post-title ">
+                                    <h3 class="post-title"><a href="javascript:void(0);"> {{ $article->title }} </a></h3>
+                                </div>
+                                <div class="wt-post-meta ">
+                                    <ul>
+                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2018</span> </li>
+                                        <li class="post-author"><i class="fa fa-user"></i><a href="javascript:void(0);">By <span>Devid</span></a> </li>
+                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:void(0);">17  Comments</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="wt-post-text">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+                                </div>
+                                <div class="wt-post-readmore">
+                                    <a href="#" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
+                                </div>
+
+                            </div>
+
                         </div>
-                        <div class="wt-post-info p-a30 p-b15  bg-white">
+                    @endforeach
 
-                            <div class="wt-post-title ">
-                                <h3 class="post-title"><a href="javascript:void(0);">Titre de l'article</a></h3>
-                            </div>
-                            <div class="wt-post-meta ">
-                                <ul>
-                                    <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2018</span> </li>
-                                    <li class="post-author"><i class="fa fa-user"></i><a href="javascript:void(0);">By <span>Devid</span></a> </li>
-                                    <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:void(0);">17  Comments</a> </li>
-                                </ul>
-                            </div>
-                            <div class="wt-post-text">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
-                            </div>
-                            <div class="wt-post-readmore">
-                                <a href="{{route('blog.show')}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
-                            </div>
-
-                        </div>
-
-                    </div>
 
 
                     <!-- PAGINATION START -->

@@ -1,68 +1,47 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\ContactMessage;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
-   return view('welcome');
+    return view('welcome');
 });
- // for public
-Route::get('/home','Page\PagesController@index')->name('home');
-Route::get('/service','Service\ServiceController@index')->name('service');
-    Route::get('/batiment','Service\ServiceController@batiment')->name('batiment');
-    Route::get('/commerce','Service\ServiceController@commerce')->name('commerce');
-    Route::get('/eau','Service\ServiceController@eau')->name('eau');
-    Route::get('/exploration','Service\ServiceController@exploitation')->name('exploration');
-    Route::get('/forage','Service\ServiceController@forage')->name('forage');
-    Route::get('/ingenierie','Service\ServiceController@ingenierie')->name('ingenierie');
-    Route::get('/mine','Service\ServiceController@mine')->name('mine');
-    Route::get('/agriculture','Service\ServiceController@agriculture')->name('service');
-    Route::get('/formation','Service\ServiceController@index')->name('formation');
+// for public
+Route::get('/home', 'Page\PagesController@index')->name('home');
+Route::get('/service', 'Service\ServiceController@index')->name('service');
+Route::get('/batiment', 'Service\ServiceController@batiment')->name('batiment');
+Route::get('/commerce', 'Service\ServiceController@commerce')->name('commerce');
+Route::get('/eau', 'Service\ServiceController@eau')->name('eau');
+Route::get('/exploration', 'Service\ServiceController@exploitation')->name('exploration');
+Route::get('/forage', 'Service\ServiceController@forage')->name('forage');
+Route::get('/ingenierie', 'Service\ServiceController@ingenierie')->name('ingenierie');
+Route::get('/mine', 'Service\ServiceController@mine')->name('mine');
+Route::get('/agriculture', 'Service\ServiceController@agriculture')->name('agriculture');
+Route::get('/formation', 'Service\ServiceController@formation')->name('formation');
 
 
-
-
-
-Route::get('/contact','Contact\ContactController@index')->name('contact');
-Route::get('/blog','Blog\BlogController@index')->name('blog.index');
-Route::get('/article','Blog\BlogController@show')->name('blog.show');
-Route::get('/projet','Projet\ProjetsController@index')->name('projet.index');
-Route::get('/detail','Projet\ProjetsController@show')->name('projet.show');
+Route::get('/contact', 'Contact\ContactController@index')->name('contact');
+Route::post('/contact&store', 'Contact\ContactController@store')->name('contact.store');
+Route::get('/blog', 'Blog\BlogController@index')->name('blog.index');
+Route::get('/article', 'Blog\BlogController@show')->name('blog.show');
+Route::get('/projet', 'Projet\ProjetsController@index')->name('projet.index');
+Route::get('/detail', 'Projet\ProjetsController@show')->name('projet.show');
 //Route::get('devi','Devi\DeviController@index')->name('devi');
 
 //for admin
-Route::get('/admin','Admin\PageController@index')->name('admin');
+Route::get('/mail', 'Contact\ContactController@adminindex')->name('mail.index');
+Route::delete('/mail/destroy/{contact}', 'Contact\ContactController@destroy')->name('mail.destroy');
+Route::get('/mail/{contact}', 'Contact\ContactController@show')->name('mail.show');
 
-Route::get('/categorie','Admin\CategorieController@index')->name('categorie.index');
-Route::get('/categorie&create','Admin\CategorieController@index')->name('categorie.create');
-Route::get('/categorie&show','Admin\CategorieController@show')->name('categorie.show');
-Route::get('/categorie&create','Admin\CategorieController@create')->name('categorie.create');
-Route::get('/categorie&store','Admin\CategorieController@store')->name('categorie.store');
-Route::get('/categorie&edit','Admin\CategorieController@edit')->name('categorie.edit');
-Route::get('/categorie&update','Admin\CategorieController@update')->name('categorie.update');
-Route::get('/categorie&destroy','Admin\CategorieController@destroy')->name('categorie.destroy');
-
-Route::get('/blog&admin','Admin\BlogController@index')->name('admin.blog.index');
-Route::get('/blog&create','Admin\BlogController@index')->name('admin.blog.create');
-Route::get('/blog&show','Admin\BlogController@show')->name('admin.blog.show');
-Route::get('/blog&create','Admin\BlogController@create')->name('admin.blog.create');
-Route::get('/blog&store','Admin\BlogController@store')->name('admin.blog.store');
-Route::get('/blog&edit','Admin\BlogController@edit')->name('admin.blog.edit');
-Route::get('/blog&update','Admin\blogController@update')->name('admin.blog.update');
-Route::get('/blog&destroy','Admin\BlogController@destroy')->name('admin.blog.destroy');
+Route::resource('categories', 'Admin\CategoriesController');
 
 
-
+Route::get('/article', 'Admin\BlogController@indexadmin')->name('admin.view');
+Route::get('/article-create', 'Admin\BlogController@create')->name('admin.create');
+Route::post('/article-store', 'Admin\BlogController@store')->name('admin.store');
+Route::delete('/article-destroy/{articles}', 'Admin\BlogController@destroy')->name('admin.destroy');
+Route::get('/article-show/{articles}', 'Admin\BlogController@show')->name('admin.show');
 
 
 

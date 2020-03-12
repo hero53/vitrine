@@ -84,20 +84,28 @@
         </div>
         <div class="m-a30 wt-box border-2">
 
-            <form class="cons-contact-form" method="post" action="form-handler.php">
-
+            <form class="contact-form" method="post" action="{{route('contact.store')}}">
+                @csrf
                 <div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input name="username" type="text" required class="form-control" placeholder="Neme">
+                                <input name="name" type="text" required class="form-control" placeholder="Nom">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-address-card"></i></span>
+                                <input name="contact" type="text" required class="form-control" placeholder="Contact">
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
@@ -111,7 +119,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon v-align-m"><i class="fa fa-pencil"></i></span>
-                                <textarea name="message" rows="4" class="form-control " required placeholder="Message" ></textarea>
+                                <textarea name="msg" rows="4" class="form-control " required placeholder="Message" ></textarea>
                             </div>
                         </div>
                     </div>
