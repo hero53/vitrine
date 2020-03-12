@@ -12,7 +12,7 @@
                             <li data-index="rs-1000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/main-slider/slider1//slide1.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="images/Blue-Hill-Explorationarchitecture-building-construction-daylight-534220.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -68,7 +68,7 @@
                                         font-weight: 700;
                                         color: #273447;
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">We Build </span> Your Dream</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre</span> 1</span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -134,7 +134,7 @@
                             <li data-index="rs-2000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/main-slider/slider1//slide2.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="images/Blue-Hill-Exploration-2-man-on-construction-site-during-daytime-159306.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -190,7 +190,7 @@
                                         font-weight: 700;
                                         color: rgba(255, 255, 255, 1.00);
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">We Build </span> Your Dream</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre </span>2</span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -283,7 +283,7 @@
                             <li data-index="rs-3000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/main-slider/slider1//slide3.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="images/Blue-Hill-Exploration-man-in-yellow-safety-vest-climbing-on-ladder-159358.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -339,7 +339,7 @@
                                         font-weight: 700;
                                         color: rgba(255, 255, 255, 1.00);
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">We Build </span> Your Dream</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre</span>3</span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->

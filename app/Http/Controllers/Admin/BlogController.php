@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Model\Article;
 use Illuminate\Http\Request;
 use App\Model\Category;
-use App\Model\Article;
+use Intervention\Image\Image;
+
 
 class BlogController extends Controller
 {
@@ -57,7 +59,11 @@ class BlogController extends Controller
             'article'=>['required']
         ]);
 
-        $imglien=request('img')->store('uploads','public');
+
+
+        $imglien= request('img')->store('uploads','public');
+        //$image= Image::make(public_path("storage/{$imglien}"))->fit(2000,2000);
+      //$image->save();
         Article::create([
             'title'=>$data['title'],
             'category_id'=>$data['category_id'],
@@ -77,8 +83,8 @@ class BlogController extends Controller
     public function show(Article $articles)
     {
         //
-
-        return view('admin.blog.show',compact('articles'));
+        $category=Category::all();
+        return view('admin.blog.show',compact('articles','category'));
     }
 
     /**
@@ -87,9 +93,12 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Article $articles)
     {
         //
+        $category=Category::all();
+        return view('admin.blog.edit',compact('articles','category'));
+
     }
 
     /**
@@ -99,9 +108,10 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Article $articles)
     {
         //
+        dd($articles);
     }
 
     /**

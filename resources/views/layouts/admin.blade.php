@@ -62,14 +62,16 @@
             </a>
         </li>
 
-        <!-- Nav Item - Utilities Collapse Menu -->
-        <li class="nav-item">
+        <!-- Nav Item - Utilities Collapse Menu
+         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                 <i class="fas fa-fw fa-wrench"></i>
                 <span>Realisation</span>
             </a>
 
         </li>
+         -->
+
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -301,7 +303,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Your Website 2019</span>
+                    <span>Copyright &copy; Developed by Soft-univers 2020</span>
                 </div>
             </div>
         </footer>

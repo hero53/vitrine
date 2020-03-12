@@ -40,6 +40,8 @@ Route::resource('categories', 'Admin\CategoriesController');
 Route::get('/article', 'Admin\BlogController@indexadmin')->name('admin.view');
 Route::get('/article-create', 'Admin\BlogController@create')->name('admin.create');
 Route::post('/article-store', 'Admin\BlogController@store')->name('admin.store');
+Route::get('/article-edit/{articles}', 'Admin\BlogController@edit')->name('admin.edit');
+Route::patch('/article-update/{articles}', 'Admin\BlogController@update')->name('admin.update');
 Route::delete('/article-destroy/{articles}', 'Admin\BlogController@destroy')->name('admin.destroy');
 Route::get('/article-show/{articles}', 'Admin\BlogController@show')->name('admin.show');
 

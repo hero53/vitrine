@@ -253,16 +253,10 @@
                     <div class="constrot-strip"></div>
                     <div class="container p-t30">
                         <div class="row">
-                            <div class="wt-footer-bot-left">
-                                <span class="copyrights-text">© 2017 Your Company. All Rights Reserved. Designed By Constrot.</span>
+                            <div class="text-center">
+                                <span class="copyrights-text ">Copyright &copy; Developed by Soft-univers 2020</span>
                             </div>
-                            <div class="wt-footer-bot-right">
-                                <ul class="copyrights-nav pull-right">
-                                    <li><a href="javascript:void(0);">Terms  & Condition</a></li>
-                                    <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                                    <li><a href="contact-1.html">Contact Us</a></li>
-                                </ul>
-                            </div>
+
                         </div>
                     </div>
                 </div>

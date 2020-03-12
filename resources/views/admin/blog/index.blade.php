@@ -28,7 +28,7 @@
                             <td>{{$article->category->title}}</td>
                             <td>{{$article->created_at->formatLocalized('%d %B %Y')}}</td>
                             <td><a href="{{route('admin.show',$article)}}" class="btn btn-success btn-lg">voir</a></td>
-                            <td><a href="#" class="btn btn-primary btn-lg">Modifier</a></td>
+                            <td><a href="{{route('admin.edit',$article)}}" class="btn btn-primary btn-lg">Modifier</a></td>
                             <td>
                                 <form action="{{route('admin.destroy',$article)}}" method="post">
                                     {{ csrf_field() }}
