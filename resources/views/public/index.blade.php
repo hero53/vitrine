@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'home'])
 @section('content')
     <!-- SLIDER START -->
     <div class="main-slider style-two default-banner">
@@ -12,7 +12,7 @@
                             <li data-index="rs-1000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/Blue-Hill-Explorationarchitecture-building-construction-daylight-534220.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/Blue-Hill Exploration-group.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -68,7 +68,7 @@
                                         font-weight: 700;
                                         color: #273447;
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre</span> 1</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ; color: #f5f4ff"><span>Travaux d’exploration </span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -98,8 +98,7 @@
                                         font-weight: 500;
                                         color: rgba(255, 255, 255, 0.85);
                                         border-width:0px;">
-                                        <span style="font-family:'Roboto';">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer.</span>
+
                                 </div>
 
                                 <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -125,7 +124,7 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index:13; text-transform:uppercase; font-weight:700;">
-                                    <a href="javascript:;" class="site-button button-lg skew-icon-btn m-r15">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{route('service')}}" class="site-button-secondry button-lg skew-icon-btn m-r15">Voir plus <i class="fa fa-angle-double-right"></i></a>
                                 </div>
 
                             </li>
@@ -134,7 +133,7 @@
                             <li data-index="rs-2000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/Blue-Hill-Exploration-2-man-on-construction-site-during-daytime-159306.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/Blue-Hill-Exploration-20180906_1100403.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -190,7 +189,7 @@
                                         font-weight: 700;
                                         color: rgba(255, 255, 255, 1.00);
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre </span>2</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ; color: #f5f4ff"><span>Exploitation minière et Pétrolière </span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -220,8 +219,6 @@
                                         font-weight: 500;
                                         color: rgba(255, 255, 255, 0.85);
                                         border-width:0px;">
-                                        <span style="font-family:'Roboto';">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer.</span>
                                 </div>
 
                                 <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -247,7 +244,7 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index:13; text-transform:uppercase; font-weight:700;">
-                                    <a href="javascript:;" class="site-button button-lg skew-icon-btn m-r15">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{route('service')}}" class="site-button-secondry button-lg skew-icon-btn m-r15">Voir plus <i class="fa fa-angle-double-right"></i></a>
                                 </div>
 
                                 <!-- LAYER NR. 5 [ for botton ] -->
@@ -283,7 +280,7 @@
                             <li data-index="rs-3000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="images/Blue-Hill-Exploration-man-in-yellow-safety-vest-climbing-on-ladder-159358.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/Blue-Hill-Exploration-20171031_131342.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -339,7 +336,7 @@
                                         font-weight: 700;
                                         color: rgba(255, 255, 255, 1.00);
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Titre</span>3</span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ; color: #f5f4ff"><span >Forage, Hydraulique et Géophysique</span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -369,8 +366,7 @@
                                         font-weight: 500;
                                         color: rgba(255, 255, 255, 0.85);
                                         border-width:0px;">
-                                        <span style="font-family:'Roboto';">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer.</span>
+
                                 </div>
 
                                 <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -396,7 +392,7 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index:13; text-transform:uppercase; font-weight:700;">
-                                    <a href="javascript:;" class="site-button button-lg skew-icon-btn m-r15">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{route('service')}}" class="site-button-secondry button-lg skew-icon-btn m-r15">Voir plus <i class="fa fa-angle-double-right"></i></a>
                                 </div>
 
                                 <!-- LAYER NR. 5 [ for botton ] -->
@@ -438,498 +434,157 @@
     </div>
     <!-- SLIDER END -->
     <!-- ABOUT COMPANY SECTION START -->
-    <div class="section-full p-tb100" style="background-image:url(images/background/pic-c-1bg.png); background-position:left bottom; background-repeat:no-repeat;">
+    <div class="section-full p-tb100" style="">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-sm-5">
+                <div class="col-md-6 col-sm-6">
                     <div class="about-com-pic">
-                        <img src="images/Blue-Hill Exploration-backhoe-bucket-barren-dirt-dirty-461789.jpg" alt="" class="img-responsive"/>
+                        <img src="{{asset('images/Blue-Hill-Exploration-tower-crane-during-daytime-93400.jpg')}}" alt="" class="img-responsive"/>
                     </div>
                 </div>
-                <div class="col-md-7 col-sm-7">
+                <div class="col-md-6 col-sm-6">
                     <div class="section-head text-left">
-                        <h2 class="text-uppercase">À PROPOS DE LA SOCIÉTÉ </h2>
+                        <h2 class="text-uppercase">PRESENTATION</h2>
                         <div class="wt-separator-outer">
                             <div class="wt-separator style-square">
                                 <span class="separator-left bg-primary"></span>
                                 <span class="separator-right bg-primary"></span>
                             </div>
                         </div>
-                        <p>Blue-Hill Exploration SARL est une entreprise de consultance. Elle est créée et <br>
-                            dirigée par d’anciens chefs de projets miniers, de géologues séniors et géologues <br>
-                            de projet ayant déjà travaillé pour plusieurs entreprises minières et sur divers projets
-                            <br>
-                            en Afrique de l’Ouest et dans le monde.
+                        <p class="text-justify">
+                            Blue-Hill Exploration SARL est une entreprise de consultance.
+                            Elle est créée et dirigée par d’anciens chefs de projets miniers, de géologues séniors et
+                            géologues de projet ayant déjà travaillé pour plusieurs entreprises minières et sur divers
+                            projets en Afrique de l’Ouest et dans le monde.
                         </p>
-                        <p>
-                            Blue-Hill Exploration SARL comprend des professionnels dynamiques et expérimentés (géologues,chercheurs, ingénieurs et techniciens)<br>
-                            de domaines multidisciplinaires qui travaillent <br>
-                            ensemble dans un esprit d’équipe pour assurer un service de qualité au client dans divers domaines :
+                        <p class="text-justify">
+                            Blue-Hill Exploration SARL comprend des professionnels dynamiques et expérimentés (géologues, chercheurs, ingénieurs et techniciens)
+                            de domaines multidisciplinaires qui travaillent ensemble dans un esprit d’équipe pour assurer un service de qualité
+                            au client.
                         </p>
-                        <p>
+                        <p class="text-justify">
+                            Blue-Hill Exploration SARL regorge d’un personnel qualifié, de haut niveau avec plusieurs années d’expériences acquises dans des compagnies
+                            nationales et internationales. À cet effet, BHEX a démontré sa capacité professionnelle et a convaincu ses partenaires par
+                            la qualité de son travail. Cette entreprise assure également des formations dans divers domaines d’activités
+                            (géologie, exploration, exploitation, SIG et logiciels, etc.) pour étudiants, diplômés et cadres d’entreprise.
+                        </p>
+                        <a href="{{route('service')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
+                            Nos services <i class="fa fa-angle-double-right"></i>
+                        </a>
+                    </div>
 
-                        </p>
-                    </div>
-                    <div class="about-types row">
-                        <div class="col-md-6 col-sm-6 p-tb20">
-                            <div class="wt-icon-box-wraper left p-l20  bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-golden-gate-bridge" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Contruction</h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-caution" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Renovation</h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-1" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0 ">Exploration</h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-transport-1" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Forage</h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-types row">
-                        <div class="col-md-6 col-sm-6 p-tb20">
-                            <div class="wt-icon-box-wraper left p-l20  bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-15" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Agro-industrie </h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-technology" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Electricité et Télécom </h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left  p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-construction-10" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0 "> Environnement </h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 p-tb20 ">
-                            <div class="wt-icon-box-wraper left p-l20 bdr-1 bdr-gray-light">
-                                <div class="icon-sm text-primary">
-                                    <a href="#" class="icon-cell p-t5 center-block"><i class="fa flaticon-transport" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Import-Export </h5>
-                                    <p>Lorem ipsum dolor sit piscing sed diam nonmy end [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="p-r15 site-button skew-icon-btn button-lg m-r15" type="button">Nos services <i class="fa fa-angle-double-right"></i></button>
+
                 </div>
 
             </div>
         </div>
     </div>
-    <!-- ABOUT COMPANY SECTION END -->
-    {{--<!-- LATEST PROJECT SECTION START -->
-    <div class="section-full p-t80" style="background-image:url(images/background/bg-4.png); background-repeat:repeat;background-color:#273447; ">
-        <div class="overlay-main"></div>
+    <div class="section-full bg-gray p-tb100 mt-5" style="">
         <div class="container">
-            <div class="section-head">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="text-uppercase text-white m-a0 p-t15">Latest Projects</h2>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="filter-wrap p-tb15 right">
-                            <ul class="masonry-filter outline-style button-skew text-uppercase customize">
-                                <li class="active"><a data-filter="*" href="#"><span> All</span></a></li>
-                                <li><a data-filter=".house" href="#"><span> House</span></a></li>
-                                <li><a data-filter=".building" href="#"><span>Building</span></a></li>
-                                <li><a data-filter=".office" href="#"><span>Office</span></a></li>
-                                <li><a data-filter=".garden" href="#"><span>Garden</span></a></li>
-                                <li><a data-filter=".interior" href="#"><span>Interior</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
             <div class="row">
-                <div class="portfolio-wrap mfp-gallery no-col-gap">
+                <div class="col-md-6 col-sm-6">
+                    <div class="section-head text-left">
+                        <h2 class="text-uppercase">EXPERIENCE  </h2>
+                        <div class="wt-separator-outer">
+                            <div class="wt-separator style-square">
+                                <span class="separator-left bg-primary"></span>
+                                <span class="separator-right bg-primary"></span>
+                            </div>
+                        </div>
+                        <p class="text-justify">
+                            BHEX SARL (Blue-Hill Exploration) est une structure spécialisée dans l’Expertise et
+                            la Consultance dans divers domaines des Géosciences. BHEX est basée en Côte d’Ivoire
+                            et au Burkina Faso, et exerce dans toute l’Afrique de l’Ouest. BHEX fournit une gamme
+                            variée de services techniques : Exploration et Mines, Géophysique et Géotechnique, Pédologie,
+                            Hydrologie et Hydrogéologie, Agriculture, Cartographie et SIG, Environnement, Formation et suivi
+                            des projets, Divers.
+                        </p>
 
-                    <!-- COLUMNS 1 -->
-                    <div class="masonry-item house col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow ">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic1.jpg"  alt="" >
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic1.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="{{route('team.index')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
+                            Voir notre equipe <i class="fa fa-angle-double-right"></i>
+                        </a>
                     </div>
-                    <!-- COLUMNS 2 -->
-                    <div class="masonry-item building col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);" title="The Cleaner">
-                                    <img src="images/latest-projects/pic2.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic2.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 3 -->
-                    <div class="masonry-item office col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic3.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic3.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 4 -->
-                    <div class="masonry-item garden col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic4.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic4.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 5 -->
-                    <div class="masonry-item interior col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic5.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic5.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 6 -->
-                    <div class="masonry-item office col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic6.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic6.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 7 -->
-                    <div class="masonry-item building col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic7.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a href="images/latest-projects/large/pic7.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 8 -->
-                    <div class="masonry-item house col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <div class="wt-gallery-bx img-reflection">
-                            <div class="wt-thum-bx wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);">
-                                    <img src="images/latest-projects/pic8.jpg"  alt="">
-                                </a>
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon">
-                                        <a href="javascript:void(0);">
-                                            <i class="fa fa-link wt-icon-box-xs"></i>
-                                        </a>
-                                        <a  href="images/latest-projects/large/pic8.jpg" class="mfp-link">
-                                            <i class="fa fa-picture-o wt-icon-box-xs"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-com-pic">
+                        <img src="{{asset('images/Blue-Hill-Exploration-20171031_131342.jpg')}}" alt="" class="img-responsive" />
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <!-- LATEST PROJECT SECTION END -->--}}
-
 
     <!-- WHY CHOOSE US SECTION START  -->
-    <div class="section-full bg-white p-t80 p-b50 ">
+    <div class="section-full  p-t80 p-b50" >
         <div class="container">
             <!-- TITLE START-->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">POURQUOI NOUS CHOISIR</h2>
+                <h2 class="text-uppercase">EXPERIENCE PROFESSIONNELLE </h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
                         <span class="separator-right bg-primary"></span>
                     </div>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
             <!-- TITLE END-->
             <div class="section-content">
                 <div class="row">
 
                     <!-- COLUMNS 1 -->
-                    <div class="col-md-4 col-sm-6 p-tb15">
-                        <div class="wt-icon-box-wraper  p-a20 center bg-white">
-                            <div class="wt-icon-box-sm text-primary bg-white radius bdr-2 m-b20">
-                                <a href="#" class="icon-cell"><i class="fa fa-life-ring" aria-hidden="true"></i></a>
-                            </div>
+                    <div class="col-md-4 col-sm-6 m-b40 animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+                        <div class="wt-icon-box-wraper p-lr20 center">
                             <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase">MEILLEURE QUALITE</h5>
-                                <div class="wt-separator bg-primary"></div>
-                                <p>BHEX SARL regorge d’un personnel qualifié, de haut niveau avec plusieurs années d’expériences acquises dans des compagnies nationales et internationales. </p>
+                                <h5 class="wt-tilte text-uppercase">ORCA GOLD, COTE D’IVOIRE</h5>
+                                <p class="text-justify">
+                                    Description de forages DD, interprétation en 2D et 3D de la minéralisation aurifères,
+                                    rédaction de rapports, recommandations de travaux follow-up sur le prospect Koné du permis de Morondo.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- COLUMNS 2 -->
-                    <div class="col-md-4 col-sm-6 p-tb15">
-                        <div class="wt-icon-box-wraper  p-a20 center bg-white">
-                            <div class="wt-icon-box-sm text-primary bg-white radius bdr-2 m-b20">
-                                <a href="#" class="icon-cell"><i class="fa fa-trophy" aria-hidden="true"></i></a>
-                            </div>
-                            <div class="icon-content ">
-                                <h5 class="wt-tilte text-uppercase">EXPERIENCE</h5>
-                                <div class="wt-separator bg-primary"></div>
-                                <p>BHEX SARL (Blue-Hill Exploration) est une structure spécialisée dans l’Expertise et la Consultance dans divers domaines des Géosciences. BHEX est basée en Côte d’Ivoire et au Burkina Faso, et exerce dans toute l’Afrique de l’Ouest.</p>
+                    <div class="col-md-4 col-sm-6 m-b40 animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+                        <div class="wt-icon-box-wraper p-lr20 center">
+                            <div class="icon-content">
+                                <h5 class="wt-tilte text-uppercase">PROGRESS MINERAL, COTE D’IVOIRE</h5>
+                                <p class="text-justify">
+                                    Exécution des travaux d’exploration (géochimie sol, tranchées, forages mototarière, cartographie litho-structurale)
+                                    sur les permis aurifères de Bobosso et de Bassawa (PR572 et 573), rédaction de rapports d’activités, de rapports
+                                    sémestriels et annuels, gestion des relations administratives et communautaires.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- COLUMNS 3 -->
-                    <div class="col-md-4 col-sm-6 p-tb15">
-                        <div class="wt-icon-box-wraper  p-a20 center bg-white">
-                            <div class="wt-icon-box-sm text-primary bg-white radius bdr-2 m-b20">
-                                <a href="#" class="icon-cell"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-                            </div>
+                    <div class="col-md-4 col-sm-6 m-b40 animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+                        <div class="wt-icon-box-wraper p-lr20 center">
                             <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase">STRATEGIe</h5>
-                                <div class="wt-separator bg-primary"></div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus [...]</p>
+                                <h5 class="wt-tilte text-uppercase">LA MANCHA, COTE D’IVOIRE</h5>
+                                <p class="text-justify">
+                                    Mission de reconnaissance et d’évaluation du potentiel aurifère du permis PR605 de
+                                    la région de Danané, Ouest de la Côte d’Ivoire. Cartographie litho-structurale, prélèvement
+                                    d’échantillons spécifiques, interprétation des résultats d’analyse or,
+                                    rédaction de rapports et recommandations de travaux ultérieurs et budgétisation.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
+
         </div>
     </div>
-    <!-- WHY CHOOSE US SECTION END  -->
-
-    <!-- LATEST BLOG SECTION START -->
-    <div class="section-full latest-blog bg-gray p-t80 p-b50">
+    <!-- WHY CHOOSE US SECTION END -->
+    <!-- SECTION CONTENT -->
+    <div class="section-full overlay-wraper  p-t80 p-b40" style="background-image:url({{asset('images/Blue-Hill-Exploration.jpg')}}); ">
         <div class="container">
-            <!-- TITLE -->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">DERNIER ARTICLE DE BLOG</h2>
-                <div class="wt-separator-outer">
-                    <div class="wt-separator style-square">
-                        <span class="separator-left bg-primary"></span>
-                        <span class="separator-right bg-primary"></span>
-                    </div>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been tahe industry.</p>
-            </div>
-            <!-- TITLE -->
-
-            <div class="section-content ">
-                <div class="row">
-                    <!-- COLUMNS 1 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="blog-post latest-blog-1 date-style-3 date-skew">
-                            <div class="wt-post-media wt-img-effect zoom-slow">
-                                <a href="javascript:;"><img src="images/blog/latest-blog/pic1.jpg" alt=""></a>
-                            </div>
-                            <div class="wt-post-info p-a30 p-b20 bg-white">
-                                <div class="wt-post-title ">
-                                    <h3 class="post-title"><a href="javascript:;">Titre du premier article de blog</a></h3>
-                                </div>
-                                <div class="wt-post-meta ">
-                                    <ul>
-                                        <li class="post-date"><i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span></li>
-                                        <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                    </ul>
-                                </div>
-                                <div class="wt-post-text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since
-                                        the when an printer [..]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 2 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="blog-post latest-blog-1 date-style-3 date-skew">
-                            <div class="wt-post-media wt-img-effect zoom-slow">
-                                <a href="javascript:;"><img src="images/blog/latest-blog/pic2.jpg" alt=""></a>
-                            </div>
-                            <div class="wt-post-info p-a30 p-b20 bg-white">
-                                <div class="wt-post-title ">
-                                    <h3 class="post-title"><a href="javascript:;">Title of first blog post</a></h3>
-                                </div>
-                                <div class="wt-post-meta ">
-                                    <ul>
-                                        <li class="post-date"><i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span></li>
-                                        <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                    </ul>
-                                </div>
-                                <div class="wt-post-text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since
-                                        the when an printer [..]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- COLUMNS 3 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="blog-post latest-blog-1 date-style-3 date-skew">
-                            <div class="wt-post-media wt-img-effect zoom-slow">
-                                <a href="javascript:;"><img src="images/blog/latest-blog/pic3.jpg" alt=""></a>
-                            </div>
-                            <div class="wt-post-info p-a30 p-b20 bg-white">
-                                <div class="wt-post-title ">
-                                    <h3 class="post-title"><a href="javascript:;">Title of first blog post</a></h3>
-                                </div>
-                                <div class="wt-post-meta ">
-                                    <ul>
-                                        <li class="post-date"><i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span></li>
-                                        <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                    </ul>
-                                </div>
-                                <div class="wt-post-text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since
-                                        the when an printer [..]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- LATEST BLOG SECTION END -->
-    <!-- TESTIMONIAL SECTION START -->
-    <div class="section-full p-t80 p-b50 overlay-wraper " data-stellar-background-ratio="0.5" style="background-image:url(images/background/bg2.jpg);">
-        <div class="overlay-main bg-black" style="opacity:0.6;"></div>
-        <div class="container">
-            <div class="section-head text-white text-center">
-                <h2 class="text-uppercase">CE QUE DISENT NOS CLIENTS</h2>
+                <h2 class="text-uppercase text-white">Blue-Hill Exploration C'EST</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square has-bg">
                         <span class="separator-left bg-primary"></span>
@@ -938,107 +593,114 @@
                 </div>
             </div>
             <div class="section-content">
-                <div class="owl-carousel testimonial-four">
-
-                    <div class="item animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
-                        <div class="testimonial-4 testimonial-bg">
-                            <div class="testimonial-text clearfix">
-                                <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                <div class="testimonial-paragraph">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the standard dummy text ever since the when  [...]</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-detail clearfix">
-                                <span class="fa fa-quote-left"></span>
-                                <strong class="testimonial-name">David Matin</strong>
-                                <span class="testimonial-position">Developer</span>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
+                                    <span class="icon-md p-t10">
+                                        <i class="fas fa-truck-pickup"></i>
+                                    </span>
+                            <div class="icon-content">
+                                <div class="font-26 font-weight-800  m-b5"><span class="counter">3</span><b>+</b></div>
+                                <span class="text-uppercase">Véhicules </span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="item animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
-                        <div class="testimonial-4 testimonial-bg">
-                            <div class="testimonial-text clearfix">
-                                <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                <div class="testimonial-paragraph">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the standard dummy text ever since the when  [...]</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-detail clearfix">
-                                <span class="fa fa-quote-left"></span>
-                                <strong class="testimonial-name">David Matin</strong>
-                                <span class="testimonial-position">Developer</span>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
+
+                            <div class="icon-content">
+                                <div class="font-26 font-weight-800 m-b5"><span class="counter">10</span><b>+</b></div>
+                                <span>Marteaux de géologue</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="item animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
-                        <div class="testimonial-4 testimonial-bg">
-                            <div class="testimonial-text clearfix">
-                                <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                <div class="testimonial-paragraph">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the standard dummy text ever since the when  [...]</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-detail clearfix">
-                                <span class="fa fa-quote-left"></span>
-                                <strong class="testimonial-name">David Matin</strong>
-                                <span class="testimonial-position">Developer</span>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
+
+                            <div class="icon-content">
+                                <div class="counter font-26 font-weight-800 m-b5">5</div>
+                                <span>Appareil photo</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="item animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
-                        <div class="testimonial-4 testimonial-bg">
-                            <div class="testimonial-text clearfix">
-                                <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                <div class="testimonial-paragraph">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the standard dummy text ever since the when  [...]</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-detail clearfix">
-                                <span class="fa fa-quote-left"></span>
-                                <strong class="testimonial-name">David Matin</strong>
-                                <span class="testimonial-position">Developer</span>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
+
+                            <div class="icon-content">
+                                <div class="counter font-26 font-weight-800 m-b5">10</div>
+                                <span>GPS</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="item animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
-                        <div class="testimonial-4 testimonial-bg">
-                            <div class="testimonial-text clearfix">
-                                <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                <div class="testimonial-paragraph">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the standard dummy text ever since the when  [...]</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-detail clearfix">
-                                <span class="fa fa-quote-left"></span>
-                                <strong class="testimonial-name">David Matin</strong>
-                                <span class="testimonial-position">Developer</span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
+        <div class="overlay-main bg-black" style="opacity:0.8;"></div>
     </div>
-    <!-- TESTIMONIAL  SECTION END -->
-    <!-- OUR CLIENT SLIDER START -->
-    <div class="section-full p-t80 p-b50">
+    <!-- SECTION CONTENT END -->
+@if(! $articles->isEmpty())
+    <div class="section-full latest-blog bg-gray p-t80 p-b50">
         <div class="container">
-
-            <!-- TITLE START -->
+            <!-- TITLE -->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">NOS CLIENTS</h2>
+                <h2 class="text-uppercase">DERNIER EVENEMENTS</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
                         <span class="separator-right bg-primary"></span>
                     </div>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <!-- TITLE -->
+
+            <div class="section-content ">
+                <div class="row">
+                @foreach($articles as $article)
+                    <!-- COLUMNS 1 -->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="blog-post latest-blog-1 date-style-3 date-skew">
+                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                <a href="javascript:;"><img src="{{asset('storage').'/'.$article->img}}" alt="" style="height: 400px;"></a>
+                            </div>
+                            <div class="wt-post-info p-a30 p-b20 bg-white">
+                                <div class="wt-post-title ">
+                                    <h3 class="post-title"><a href="javascript:;">{{ $article->title }}</a></h3>
+                                </div>
+                                <div class="wt-post-meta ">
+                                    <ul>
+                                        <li class="post-date"><i class="fa fa-calendar"></i> <strong style="color: white;">{{$article->created_at->format('d/m/y à H:m')}}</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="wt-post-readmore">
+                                    <a href="{{route('blog.show',$article)}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+@endif
+    <!-- LATEST BLOG SECTION END -->
+
+
+    <div class="section-full p-t80 p-b50">
+        <div class="container">
+
+            <!-- TITLE START -->
+            <div class="section-head text-center">
+                <h2 class="text-uppercase">NOS PARTENAIRE</h2>
+                <div class="wt-separator-outer">
+                    <div class="wt-separator style-square">
+                        <span class="separator-left bg-primary"></span>
+                        <span class="separator-right bg-primary"></span>
+                    </div>
+                </div>
             </div>
             <!-- TITLE END -->
 
@@ -1050,7 +712,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo1.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo1.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1058,7 +720,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo2.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo2.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1066,7 +728,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo3.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo3.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1074,7 +736,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo4.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo4.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1082,7 +744,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo5.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo5.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1090,7 +752,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo6.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo6.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1098,7 +760,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo1.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo7.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1106,7 +768,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo2.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo8.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1114,7 +776,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo3.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo9.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1122,7 +784,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo4.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo10.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1130,7 +792,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo5.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo8.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1138,7 +800,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="images/client-logo/logo6.png" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo5.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>

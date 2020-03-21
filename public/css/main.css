@@ -1,0 +1,8 @@
+.bg{
+    background-color: white;
+}
+
+.header-nav .nav > li .sub-menu li a:hover{
+    background-color: black;
+    color: white;
+}

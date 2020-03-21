@@ -12,11 +12,11 @@
     <meta name="description" content="" />
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="icon" href="{{asset('images/TEST1.jpg')}}" type="image/x-icon" />
+    <link rel="shortcut icon" type="/image/x-icon" href="{{asset('images/logo.jpg')}}" />
 
     <!-- PAGE TITLE HERE -->
-    <title>Contruction-New</title>
+    <title>BHEX- {{$title}}</title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,39 +27,41 @@
     <![endif] -->
 
     <!-- BOOTSTRAP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
     <!-- FONTAWESOME STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome/css/font-awesome.min.css')}}" />
     <!-- FLATICON STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/flaticon.min.css')}}">
     <!-- ANIMATE STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/animate.min.css')}}">
     <!-- OWL CAROUSEL STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-select.min.css')}}">
     <!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/magnific-popup.min.css')}}">
     <!-- LOADER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/loader.min.css')}}">
     <!-- MAIN STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
+    <link rel="stylesheet" class="skin" type="text/css" href="{{asset('css/skin/skin-1.css')}}">
     <!-- CUSTOM  STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
 
 
 
     <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/revolution/revolution/css/settings.css')}}">
     <!-- REVOLUTION NAVIGATION STYLE -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/revolution/revolution/css/navigation.css')}}">
 
     <!-- GOOGLE FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
 
+    <!-- Main -->
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
 </head>
 
 <body>
@@ -88,12 +90,12 @@
         </div>
         <!-- MAIN BAR START -->
         <div class="sticky-header main-bar-wraper">
-            <div class="main-bar bg-primary">
+            <div class="main-bar bg">
                 <div class="container">
                     <!-- SITE LOGO -->
-                    <div class="logo-header mostion header-skew">
-                        <a href="{{route('home')}}">
-                            <img src="images/logo.png" width="230" height="67" alt="" />
+                    <div class="logo-header ">
+                        <a href="{{route('home.public')}}">
+                            <img src="{{asset('images/logo.jpg')}}" width="230" height="67" alt="" />
                         </a>
                     </div>
                     <!-- NAV TOGGLE BUTTON -->
@@ -109,32 +111,25 @@
                     <!-- MAIN NAV -->
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
+                            <li class="tbg">
+                                <a href="{{route('home.public')}}">Accueil<i class=""></i></a>
+                            </li>
                             <li class="sub-menu">
-                                <a href="{{route('home')}}">Home<i class=""></i></a>
+                                <a href="{{route('team.index')}}">A propos<i class=""></i></a>
+                            </li>
+
+                            <li class="ok">
+                                <a href="{{route('service')}}">SERVICES<i class=""></i></a>
+                           
                             </li>
 
                             <li>
-                                <a href="{{route('service')}}">SERVICES<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{route('exploration')}}">Exploration</a></li>
-                                    <li><a href="{{route('mine')}}">Exploitation minière et Pétrolière </a></li>
-                                    <li><a href="{{route('batiment')}}">Bâtiments et Travaux Publics </a></li>
-                                    <li><a href="{{route('ingenierie')}}">Ingénierie en Electricité et Télécom </a></li>
-                                    <li><a href="{{route('forage')}}">Forage, Hydraulique et Géophysique </a></li>
-                                    <li><a href="{{route('agriculture')}}">Agriculture et Agro-industrie </a></li>
-                                    <li><a href="{{route('eau')}}">Eau, Sol et Environnement </a></li>
-                                    <li><a href="{{route('commerce')}}">Commerce, Import-Export </a></li>
-                                    <li><a href="{{route('formation')}}">Formation et Encadrement Technique </a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="{{route('projet.index')}}">PROJET<i class=""></i></a>
+                                <a href="{{route('projet.index')}}">Nos realisation<i class=""></i></a>
  
                             </li>
 
                             <li class="submenu-direction">
-                                <a href="{{route('blog.index')}}">BLOG<i class=""></i></a>
+                                <a href="{{route('blog.index')}}">Actualites<i class=""></i></a>
 
                             </li>
                             <li>
@@ -160,12 +155,12 @@
             <footer class="site-footer footer-dark">
                 <!-- COLL-TO ACTION START -->
                 <!-- COLL-TO ACTION START -->
-                <div class="call-to-action-wrap bg-primary" style="background-image:url(images/background/bg-4.png); background-repeat:repeat;">
+                <div class="call-to-action-wrap bg-primary " style="background-image:url({{asset('images/Blue-Hill-Exploration.jpg')}}); background-repeat:repeat;">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-sm-8">
                                 <div class="call-to-action-left p-tb20 p-r50">
-                                    <h4 class="text-uppercase m-b10">NOUS SOMMES PRÊTS À CONSTRUIRE VOTRE RÊVE, PARLEZ-NOUS DE VOTRE PROJET</h4>
+                                    
                                 </div>
                             </div>
 
@@ -184,22 +179,26 @@
                     <div class="overlay-main bg-black" style="opacity:0;"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-2 ">
+                            <div class="col-md-10 col-md-offset-1 ">
 
-                                <div class="col-md-3 col-sm-6  p-tb20">
+                                <div class="col-md-4 col-sm-6  p-tb20">
                                     <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                        <div class="icon-md text-primary">
+                                        <div class="icon-md text-white">
                                             <span class="flaticon-placeholder"></span>
                                         </div>
                                         <div class="icon-content">
                                             <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                            <p>Abidjan, Yopougon Attié (Keneya)</p>
+                                            <p>Abidjan, Yopougon Attié </p>
                                         </div>
+                                        <br>
+                                        <br>
+                                        <br>
                                     </div>
+
                                 </div>
-                                <div class="col-md-3 col-sm-6  p-tb20 ">
+                                <div class="col-md-4 col-sm-6  p-tb20 ">
                                     <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
-                                        <div class="icon-md text-primary">
+                                        <div class="icon-md text-white">
                                             <span class="flaticon-smartphone"></span>
                                         </div>
                                         <div class="icon-content">
@@ -226,14 +225,17 @@
                                          </div>
                                      </div>
                                  </div> -->
-                                <div class="col-md-3 col-sm-6 p-tb20">
+                                <div class="col-md-4 col-sm-6 p-tb20">
                                     <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                        <div class="icon-md text-primary">
+                                        <div class="icon-md text-white">
                                             <span class="flaticon-email"></span>
                                         </div>
                                         <div class="icon-content">
                                             <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                            <p class="m-b0">info.bhex@gmail.com</p>
+                                            <p class="m-b0 ">info.bhex@gmail.com</p>
+                                            <br>
+                                            <br>
+                                            <br>
 
                                         </div>
                                     </div>
@@ -272,44 +274,44 @@
 
 
     <!-- JAVASCRIPT  FILES ========================================= -->
-    <script   src="js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
-    <script   src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+    <script   src="{{asset('js/jquery-1.12.4.min.js')}}"></script><!-- JQUERY.MIN JS -->
+    <script   src="{{asset('js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
 
-    <script   src="js/bootstrap-select.min.js"></script><!-- FORM JS -->
-    <script   src="js/jquery.bootstrap-touchspin.min.js"></script><!-- FORM JS -->
+    <script   src="{{asset('js/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+    <script   src="{{asset('js/jquery.bootstrap-touchspin.min.js')}}"></script><!-- FORM JS -->
 
-    <script   src="js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
+    <script   src="{{asset('js/magnific-popup.min.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
 
-    <script   src="js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
-    <script   src="js/counterup.min.js"></script><!-- COUNTERUP JS -->
-    <script   src="js/waypoints-sticky.min.js"></script><!-- COUNTERUP JS -->
+    <script   src="{{asset('js/waypoints.min.js')}}"></script><!-- WAYPOINTS JS -->
+    <script   src="{{asset('js/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+    <script   src="{{asset('js/waypoints-sticky.min.js')}}"></script><!-- COUNTERUP JS -->
 
-    <script  src="js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
+    <script  src="{{asset('js/isotope.pkgd.min.js')}}"></script><!-- MASONRY  -->
 
-    <script   src="js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
+    <script   src="{{asset('js/owl.carousel.min.js')}}"></script><!-- OWL  SLIDER  -->
 
-    <script   src="js/stellar.min.js"></script><!-- PARALLAX BG IMAGE   -->
-    <script   src="js/scrolla.min.js"></script><!-- ON SCROLL CONTENT ANIMTE   -->
+    <script   src="{{asset('js/stellar.min.js')}}"></script><!-- PARALLAX BG IMAGE   -->
+    <script   src="{{asset('js/scrolla.min.js')}}"></script><!-- ON SCROLL CONTENT ANIMTE   -->
 
-    <script   src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
-    <script   src="js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
+    <script   src="{{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+    <script   src="{{asset('js/shortcode.js')}}"></script><!-- SHORTCODE FUCTIONS  -->
 
 
 
     <!-- REVOLUTION JS FILES -->
-    <script  src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script  src="plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script  src="{{asset('plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
 
     <!-- REVOLUTION SLIDER FUNCTION  ===== -->
     <script >

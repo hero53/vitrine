@@ -1,7 +1,7 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'actualites description'])
 @section('content')
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/blog-banner.jpg);">
+    <div class="wt-bnr-inr overlay-wraper" style="background-image:url({{asset('images/Blue-Hill-Exploration-blog-icon-information-internet-262508.jpg')}});">
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
@@ -15,7 +15,7 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
-                <li><a href="javascript:void(0);">Home</a></li>
+                <li><a href="{{route('home.public')}}">Home</a></li>
                 <li>Blog single on sidebar</li>
             </ul>
         </div>
@@ -29,24 +29,19 @@
 
             <div class="blog-post date-style-1 blog-post-single">
                 <div class="wt-post-media wt-img-effect">
-                    <a href="javascript:void(0);"><img src="images/blog/default/thum1.jpg" alt=""></a>
+                    <a href="javascript:void(0);"><img src="{{asset('storage').'/'.$articles->img}}" alt=""></a>
                 </div>
                 <div class="post-description-area p-t30">
                     <div class="wt-post-title ">
-                        <h3 class="post-title"><a href="javascript:void(0);">Maiores, sunt eveniet doloremque porro hic exercitationem distinctio sequi adipisci. Nulla, fuga perferendis </a></h3>
+                        <h3 class="post-title"><a href="javascript:void(0);"> {{$articles->title}} </a></h3>
                     </div>
                     <div class="wt-post-meta ">
                         <ul>
-                            <li class="post-date"> <i class="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                            <li class="post-author"><i class="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:void(0);">0</a> </li>
+                            <li class="post-date"> <i class="fa fa-calendar"></i><strong>{{$articles->created_at->format('d/m/y à H:m')}}</strong></li>
                         </ul>
                     </div>
                     <div class="wt-post-text">
-                        <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur.</p>
-
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="#">Curabitur blandit tempus porttitor</a>. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
-
+                        {!! $articles->article !!}
 
 
 
@@ -56,8 +51,8 @@
 
                 </div>
             </div>
-
-            <div class="section-content p-t50">
+            {{--
+             <div class="section-content p-t50">
                 <!-- TITLE START -->
                 <div class="section-head">
                     <h2 class="text-uppercase">Related Blog Post</h2>
@@ -405,8 +400,128 @@
                 </div>
             </div>
             <!-- BLOG END -->
+            --}}
+
+
+
+
 
         </div>
+        <!-- TITLE START -->
+        <div class="section-head text-center">
+            <h2 class="text-uppercase">NOS PARTENAIRE</h2>
+            <div class="wt-separator-outer">
+                <div class="wt-separator style-square">
+                    <span class="separator-left bg-primary"></span>
+                    <span class="separator-right bg-primary"></span>
+                </div>
+            </div>
+        </div>
+        <!-- TITLE END -->
+        <!-- IMAGE CAROUSEL START -->
+        <div class="section-content animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+            <div class="owl-carousel client-logo-carousel">
+
+                <!-- COLUMNS 1 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo1.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 2 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo2.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 3 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo3.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 4 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo4.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 5 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo5.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 6 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo6.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 7 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo7.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 8 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo8.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 9 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo9.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 10 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo10.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 11 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo8.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNS 12 -->
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo wt-img-effect on-color">
+                            <a href="#"><img src="{{asset('images/logo/logo5.jpg')}}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- IMAGE CAROUSEL START -->
     </div>
     <!-- SECTION CONTENT END -->
 @endsection

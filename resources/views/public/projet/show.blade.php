@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'projet presentation'])
 @section('content')
     <!-- INNER PAGE BANNER START -->
     <div class="wt-bnr-inr overlay-wraper" style="background-image:url(https://www.bgc-ci.com/fichiers/images/main-slider/slider1/slide1.jpg);">
@@ -15,7 +15,7 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
-                <li><a href="/nos-services">Services</a></li>
+                <li><a href="{{route('home.public')}}">Services</a></li>
                 <li>Construction de Batiments</li>
             </ul>
         </div>

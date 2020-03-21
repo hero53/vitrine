@@ -5,17 +5,21 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Model\Article;
 use Illuminate\Http\Request;
-use App\Model\Category;
 use Intervention\Image\Image;
 
 
 class BlogController extends Controller
 {
+    
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index()
     {
         //
@@ -24,7 +28,7 @@ class BlogController extends Controller
     public function indexadmin()
     {
         //
-        $articles=Article::with('category')->get();
+        $articles=Article::all();
         return view('admin.blog.index',compact('articles'));
     }
 
@@ -36,8 +40,7 @@ class BlogController extends Controller
     public function create()
     {
         //
-        $category=Category::all();
-        return view('admin.blog.create',compact('category'));
+        return view('admin.blog.create');
 
     }
 
@@ -54,20 +57,18 @@ class BlogController extends Controller
         //
        $data=request()->validate([
             'title'=>['required'],
-            'category_id'=>['required'],
             'img'=>['required','image'],
             'article'=>['required']
         ]);
 
 
 
-        $imglien= request('img')->store('uploads','public');
-        //$image= Image::make(public_path("storage/{$imglien}"))->fit(2000,2000);
-      //$image->save();
+        $imglien= request('img')->store('uploads','public','blog');
+        $image= Image::make(public_path("/storage/{$imglien}"))->fit(200,200);
+        $image->save();
         Article::create([
             'title'=>$data['title'],
-            'category_id'=>$data['category_id'],
-            'img'=>$imglien,
+            'img'=>  $image,
             'article'=>$data['article']
         ]);
 
@@ -83,8 +84,7 @@ class BlogController extends Controller
     public function show(Article $articles)
     {
         //
-        $category=Category::all();
-        return view('admin.blog.show',compact('articles','category'));
+        return view('admin.blog.show',compact('articles'));
     }
 
     /**
@@ -96,8 +96,7 @@ class BlogController extends Controller
     public function edit(Article $articles)
     {
         //
-        $category=Category::all();
-        return view('admin.blog.edit',compact('articles','category'));
+        return view('admin.blog.edit',compact('articles'));
 
     }
 

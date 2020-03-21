@@ -1,11 +1,11 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'actualite'])
 @section('content')
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/blog-banner.jpg);">
+    <div class="wt-bnr-inr overlay-wraper" style="background-image:url({{asset('images/Blue-Hill-Exploration-blog-icon-information-internet-262508.jpg')}});">
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">Blog </h1>
+                <h1 class="text-white">Actualites </h1>
             </div>
         </div>
     </div>
@@ -14,8 +14,8 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
-                <li><a href="javascript:void(0);">Accueil</a></li>
-                <li>Blog </li>
+                <li><a href="{{route('home.public')}}">Accueil</a></li>
+                <li>Actualités </li>
             </ul>
         </div>
     </div>
@@ -31,50 +31,32 @@
 
                     <!-- COLUMNS 4 -->
                     @foreach($articles as $article)
-                        <div class="blog-post blog-lg date-style-1">
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="{{route('blog.show',$article)}}"><img src="{{asset('storage').'/'.$article->img}}" alt="" style="height: 200px;></a>
+                                </div>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
 
-                            <div class="wt-post-media wt-img-effect zoom-slow">
-                                <a href="javascript:void(0);"><img src="{{asset('storage').'/'.$article->img}}" alt="bla"></a>
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title text-center"><a href="javascript:void(0);">{{ $article->title }}</a></h3>
+                                    </div>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong >{{$article->created_at->format('d/m/y à H:m')}}</strong></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="wt-post-readmore">
+                                        <a href="{{route('blog.show',$article)}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
+                                    </div>
+
+
+                                </div>
                             </div>
-
-                            <div class="wt-post-info p-a30 p-b15  bg-white">
-
-                                <div class="wt-post-title ">
-                                    <h3 class="post-title"><a href="javascript:void(0);"> {{ $article->title }} </a></h3>
-                                </div>
-                                <div class="wt-post-meta ">
-                                    <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>{{$article->created_at->format('d/m/y à H:m')}}</strong> <span></li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:void(0);">17  Comments</a> </li>
-                                    </ul>
-                                </div>
-                                <div class="wt-post-text">
-                                    <p> {{$article->article}}</p>
-                                </div>
-                                <div class="wt-post-readmore">
-                                    <a href="#" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
-                                </div>
-
-                            </div>
-
                         </div>
                     @endforeach
-
-
-
-                    <!-- PAGINATION START -->
-                    <div class="pagination-bx clearfix ">
-                        <ul class = "custom-pagination pagination">
-                            <li><a href = "#">&laquo;</a></li>
-                            <li class = "active"><a href = "#">1</a></li>
-                            <li><a href = "#">2</a></li>
-                            <li><a href = "#">3</a></li>
-                            <li><a href = "#">4</a></li>
-                            <li><a href = "#">5</a></li>
-                            <li><a href = "#">&raquo;</a></li>
-                        </ul>
-                    </div>
-                    <!-- PAGINATION END -->
+           
 
                 </div>
                 <!-- LEFT PART END -->
@@ -88,14 +70,14 @@
 
                         <!-- 7. OUR CLIENT -->
                         <div class="widget">
-                            <h4 class="widget-title">Nos clients</h4>
+                            <h4 class="widget-title">Nos partenaire</h4>
                             <div class="owl-carousel widget-client p-t10">
 
                                 <!-- COLUMNS 1 -->
                                 <div class="item">
                                     <div class="ow-client-logo">
                                         <div class="client-logo wt-img-effect on-color">
-                                            <a href="#"><img src="images/client-logo/logo1.png" alt=""></a>
+                                            <a href="#"><img src="{{asset('images/logo/logo1.jpg')}}" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +85,7 @@
                                 <div class="item">
                                     <div class="ow-client-logo">
                                         <div class="client-logo wt-img-effect on-color">
-                                            <a href="#"><img src="images/client-logo/logo2.png" alt=""></a>
+                                            <a href="#"><img src="{{asset('images/logo/logo2.jpg')}}" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +93,7 @@
                                 <div class="item">
                                     <div class="ow-client-logo">
                                         <div class="client-logo wt-img-effect on-color">
-                                            <a href="#"><img src="images/client-logo/logo3.png" alt=""></a>
+                                            <a href="#"><img src="{{asset('images/logo/logo3.jpg')}}" alt=""></a>
                                         </div>
                                     </div>
                                 </div>

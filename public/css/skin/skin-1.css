@@ -104,17 +104,17 @@ ol.list-num-count > li::before,
 
 .widget_calendar table tbody td#today,
 .searchform input[type="submit"] {
-	background-color:#FFBC13;
+	background-color:black;
 }
 
 /* Premery hex buttons bg color*/
 .site-button {
-	background-color:#FFBC13;
+	background-color:black;
 }
 .site-button:hover,
 .site-button:focus,
 .site-button:active {
-	background-color:#FFBC13;
+	background-color:black;
 }
 
 /* other hex buttons bg color*/
@@ -218,8 +218,9 @@ ol.comment-list li.comment .reply a,
 .footer-dark .footer-top a:hover,
 .social-icons.social-light.has-bg li a:hover,
 .social-icons.social-dark.has-bg li a:hover {
-	color:#FFBC13;
+	color:#12006c;
 }
+
 @media only screen and (max-width:991px) {
 .bg-primary .header-nav .nav > li:hover > a,
 .bg-primary .header-nav .nav > li.active > a, 
@@ -257,7 +258,7 @@ input[type=radio] + label:hover:before,
 .testimonial-3 .testimonial-pic, .testimonial-grid-3 .testimonial-pic,
 
 .date-style-3 .wt-post-media  {
-	border-color:#FFBC13;
+	border-color:black;
 }
 
 

@@ -1,12 +1,14 @@
 @extends('layouts.admin')
 
 @section('content')
-    <p class="text-center">Liste des messages</p>
+    <p class="text-center mt-5"></p>
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
 
         <div class="card-body">
             <div class="table-responsive">
+                <p class="h2 text-center"><u>Liste des messages</u> </p>
+                @if(! $contacts->isEmpty())
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                     <tr>
@@ -37,6 +39,9 @@
 
                     </tbody>
                 </table>
+                @else
+                    <p class="text-center h4">Vous n'avez pas encore de message</p>
+                @endif
             </div>
         </div>
     </div>

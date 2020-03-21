@@ -1,15 +1,15 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'projet'])
 @section('content')
 
     <!-- CONTENT START -->
     <div class="page-content">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/Blue-Hill-Exploration-architect-architecture-blueprint-build-271667.jpg);">
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url({{asset('images/Blue-Hill-Exploration-architect-architecture-blueprint-build-271667.jpg')}});">
             <div class="overlay-main bg-black" style="opacity:0.5;"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Projet</h1>
+                    <h1 class="text-white">Nos realisation</h1>
                 </div>
             </div>
         </div>
@@ -19,177 +19,112 @@
         <div class="bg-gray-light p-tb20">
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-1">
-                    <li><a href="javascript:void(0);">Accueil</a></li>
-                    <li>Projet</li>
+                    <li><a href="{{route('home.public')}}">Accueil</a></li>
+                    <li>Nos realisation</li>
                 </ul>
             </div>
         </div>
         <!-- BREADCRUMB ROW END -->
 
-        <!-- SECTION CONTENT START -->
-        <div class="section-full p-t80 p-b50">
+        <!-- SECTION CONTENT -->
+        <div class="section-full p-t80 p-b50 bg-gray">
+            <div class="container">
+                <div class="row">
 
-            {{--
-              <!-- PAGINATION START -->
-            <div class="filter-wrap p-a15">
-                <ul class="masonry-filter link-style  text-uppercase">
-                    <li class="active"><a data-filter="*" href="#">All</a></li>
-                    <li><a data-filter=".house" href="#">House</a></li>
-                    <li><a data-filter=".building" href="#">Building</a></li>
-                    <li><a data-filter=".office" href="#">Office</a></li>
-                    <li><a data-filter=".garden" href="#">Garden</a></li>
-                    <li><a data-filter=".interior" href="#">Interior</a></li>
-                </ul>
-            </div>
-            <!-- PAGINATION END -->--}}
+                    <!-- BLOG START -->
+                    <div class="portfolio-wrap wt-blog-grid-3">
 
-
-            <!-- GALLERY CONTENT START -->
-            <div class="portfolio-wrap mfp-gallery no-col-gap clearfix">
-                <div class="container-fluid">
-                    <div class="row">
                         <!-- COLUMNS 1 -->
-                        <div class="masonry-item house col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic1.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">House</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="javascript:void(0);"><img src="{{asset('images/unnamed.jpg')}}" alt=""></a>
+                                </div>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
+
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title"><a href="javascript:void(0);">ORCA GOLD, COTE D’IVOIRE</a></h3>
                                     </div>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong style="color: white">NOVEMBRE </strong> <span> 2019</span> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="wt-post-text">
+                                        <p class="text-justify">Description de forages DD, interprétation en 2D et 3D de la minéralisation aurifères, rédaction de rapports,
+                                            recommandations de travaux follow-up sur le prospect Koné du permis de Morondo.</p>
+                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
                         <!-- COLUMNS 2 -->
-                        <div class="masonry-item building col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic2.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Building</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="javascript:void(0);"><img src="{{asset('images/unnamed.jpg')}}" alt=""></a>
+                                </div>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
+
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title"><a href="javascript:void(0);">PROGRESS MINERAL, COTE D’IVOIRE</a></h3>
                                     </div>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong style="color: white">JUIN </strong> <span> 2019</span> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="wt-post-text">
+                                        <p class="text-justify">
+                                            Exécution des travaux d’exploration (géochimie sol, tranchées, forages mototarière, cartographie litho-structurale)
+                                            sur les permis aurifères de Bobosso et de Bassawa (PR572 et 573), rédaction de rapports d’activités,
+                                            de rapports sémestriels et annuels, gestion des relations administratives et communautaires.
+                                        </p>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
                         <!-- COLUMNS 3 -->
-                        <div class="masonry-item office col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic3.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Office</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
-                                    </div>
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="javascript:void(0);"><img src="{{asset('images/unnamed.jpg')}}" alt=""></a>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 4 -->
-                        <div class="masonry-item garden col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic4.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Garden</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
+
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title"><a href="javascript:void(0);">LA MANCHA, COTE D’IVOIRE</a></h3>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 5 -->
-                        <div class="masonry-item interior col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic5.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Interior</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong style="color: white">JUIN-JUILLET</strong> <span>2019</span> </li>
+                                        </ul>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 6 -->
-                        <div class="masonry-item office col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic6.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Office</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
+                                    <div class="wt-post-text">
+                                        <p class="text-justify">
+                                            Mission de reconnaissance et d’évaluation du potentiel aurifère du permis PR605
+                                            de la région de Danané, Ouest de la Côte d’Ivoire. Cartographie litho-structurale,
+                                            prélèvement d’échantillons spécifiques, interprétation des résultats d’analyse or,
+                                            rédaction de rapports et recommandations de travaux ultérieurs et budgétisation.
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 7 -->
-                        <div class="masonry-item building col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic7.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Building</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 8 -->
-                        <div class="masonry-item house col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic8.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">House</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 9 -->
-                        <div class="masonry-item interior col-lg-4 col-md-6 col-sm-6">
-                            <div class="wt-box">
-                                <div class="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
-                                    <img src="images/portfolio/pic1.jpg" alt="">
-                                    <div class="wt-info-has p-a20">
-                                        <div class="wt-info p-tb10">
-                                            <h4 class="m-a0">Interior</h4>
-                                        </div>
-                                        <div class="wt-info-has-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</div>
-                                        <a href="javascript:void(0);" class="site-button skew-icon-btn">More <i class="fa fa-angle-double-right"></i></a>
-                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- BLOG GRID END -->
+
                 </div>
             </div>
-            <!-- GALLERY CONTENT END -->
-
         </div>
-        <!-- SECTION CONTENT END  -->
+        <!-- SECTION CONTENT END -->
 
     </div>
 @endsection

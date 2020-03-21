@@ -993,7 +993,7 @@ strong {
 }
 
 .font-80 { 
-	font-size:80	px;
+	font-size:80px;
 	line-height:86px;
 }
 
@@ -2515,7 +2515,7 @@ ol.list-num-count.upper-alpha > li:before {
 }
 
 .site-button {
-	background-color:#FFBC13; 
+	background-color:#FFBC13;
 }
 .site-button:active,
 .site-button:hover,
@@ -5728,7 +5728,7 @@ transform: translateY(-50%);
 	color: #444;
 }
 .widget_calendar table tbody td#today {
-	background-color: #FFBC13 ;
+	background-color: black ;
 	color: #FFF; 
 }
 .widget_calendar table tbody td#today a {
@@ -6120,7 +6120,7 @@ transform: translateY(-50%);
 .call-to-action-left h5,
 .call-to-action-left h6,
 .call-to-action-left p {
-	color:#fff;
+	color:black;
 }
 .call-to-action-left p:last-child {
 	margin-bottom:0;
@@ -7695,7 +7695,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	border-radius: 0;
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
-	color: #555;
+	color:black;
 	font-size: 14px;
 	font-weight:600;
 	padding:35px 12px;

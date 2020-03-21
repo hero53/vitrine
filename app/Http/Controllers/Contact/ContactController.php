@@ -24,7 +24,6 @@ class ContactController extends Controller
     {
         //
         $contacts=Contact::all();
-        //dd($contact);
         return view('admin.mail.index',compact('contacts'));
     }
 
@@ -52,7 +51,7 @@ class ContactController extends Controller
             'name'=>'required|min:05',
             'contact'=>'nullable',
             'email'=>'required|email',
-            'msg'=>'required|min:10'
+            'msg'=>'required|min:3'
         ]);
        Contact::create($msgdata);
         return redirect()->route('contact');

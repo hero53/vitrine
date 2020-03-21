@@ -18,7 +18,7 @@ class BlogController extends Controller
     {
         //
 
-        $articles=Article::with('category')->get();
+        $articles=Article::all();
         return view('public.blog.index',compact('articles'));
     }
 
@@ -49,10 +49,10 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Article $article)
+    public function show(Article $articles)
     {
         //
-        $articles=$article;
+
         return view('public.blog.show',compact('articles'));
     }
 
