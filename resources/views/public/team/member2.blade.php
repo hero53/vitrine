@@ -48,22 +48,34 @@
                                 </div>
                                 <h4 class="widget-title">QUALIFICATIONS CLES</h4>
                                 <div class="search-bx">
-                                    <p class="text-center">Comptabilité et Gestion</p>
-                                    -Etats financiers <br>
-                                    -Analyse de comptes <br>
-                                    -Salaire et Paie <br>
-                                    -Gestion de stocks et logistique <br>
-                                    -Fiscalité <br>
-                                    <p class="text-left">Administration du personnel</p>
-                                    -Management du personne <br>
-                                    -Droit du travail et des affaires sociales <br>
-                                    -Gestion des relations sociales <br>
-                                    <p class="text-center">Administration et Secrétariat</p>
-                                    -Rédaction courriers, rapports, PV réunions <br>
-                                    -Gestion des locaux, Organisation et Archivage <br>
-                                    <p class="text-center">Moyens généraux</p>
-                                    -Gestion matériel bureau, équipements et parc auto <br>
-                                    -Organisation ateliers, séminaires <br>
+                                    <p class="text-center"><strong>Comptabilité et Gestion</strong></p>
+                                    <p>
+                                        -Etats financiers <br>
+                                        -Analyse de comptes <br>
+                                        -Salaire et Paie <br>
+                                        -Gestion de stocks et logistique <br>
+                                        -Fiscalité <br>
+                                    </p>
+
+                                    <p class="text-center"><strong>Administration du personnel</strong></p>
+                                    <p>
+                                        -Management du personne <br>
+                                        -Droit du travail et des affaires sociales <br>
+                                        -Gestion des relations sociales <br>
+                                    </p>
+
+                                    <p class="text-center"><strong>Administration et Secrétariat</strong></p>
+                                    <p>
+                                        -Rédaction courriers, rapports, PV réunions <br>
+                                        -Gestion des locaux, Organisation et Archivage <br>
+                                    </p>
+
+                                    <p class="text-center"><strong>Moyens généraux</strong></p>
+                                    <p>
+                                        -Gestion matériel bureau, équipements et parc auto <br>
+                                        -Organisation ateliers, séminaires <br>
+                                    </p>
+
                                 </div>
                                 <h4 class="widget-title">FORMATION</h4>
                                 <div class="search-bx">

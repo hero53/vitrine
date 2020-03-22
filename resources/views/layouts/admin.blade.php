@@ -50,7 +50,7 @@
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
             <a class="nav-link" href="{{route('mail.index')}}">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <i class="far fa-comments"></i>
                 <span>Mail</span></a>
         </li>
 
@@ -62,7 +62,7 @@
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{route('admin.view')}}">
-                <i class="fas fa-fw fa-cog"></i>
+                <i class="far fa-bell"></i>
                 <span>Evènement</span>
             </a>
         </li>
@@ -74,8 +74,15 @@
 
         <!-- Heading -->
         <div class="sidebar-heading">
-            Ajouter
+            voir le site
         </div>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{route('home.public')}}">
+                <i class="fab fa-weebly"></i>
+                <span>retourner sur le site</span>
+            </a>
+        </li>
+
 
       
 

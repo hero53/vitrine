@@ -49,14 +49,17 @@
                                     </p>
                                 </div>
                                 <h4 class="widget-title">QUALIFICATIONS CLES</h4>
-                                <div class="search-bx blockquote">
-                                    - Management de projets miniers <br>
-                                    - Exécution de travaux d'Exploration jusqu'à l'Etude de faisabilité<br>
-                                    - Etude de minéralisations et recommandations de travaux ultérieurs<br>
-                                    - Cartographie lithostructurale et régolite<br>
-                                    - Grade control, Géotechnique<br>
-                                    - GIS et Gestion de base de données<br>
-                                    - Formation de géologues et techniciens<br>
+                                <div class="search-bx">
+                                    <p>
+                                        - Management de projets miniers <br>
+                                        - Exécution de travaux d'Exploration jusqu'à l'Etude de faisabilité<br>
+                                        - Etude de minéralisations et recommandations de travaux ultérieurs<br>
+                                        - Cartographie lithostructurale et régolite<br>
+                                        - Grade control, Géotechnique<br>
+                                        - GIS et Gestion de base de données<br>
+                                        - Formation de géologues et techniciens<br>
+                                    </p>
+
                                 </div>
                                 <h4 class="widget-title">FORMATION</h4>
                                 <div class="search-bx">

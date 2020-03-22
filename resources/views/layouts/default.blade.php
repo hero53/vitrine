@@ -30,6 +30,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
     <!-- FONTAWESOME STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome/css/font-awesome.min.css')}}" />
+    <link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+
     <!-- FLATICON STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/flaticon.min.css')}}">
     <!-- ANIMATE STYLE SHEET -->

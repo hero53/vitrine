@@ -35,6 +35,20 @@
                             </div>
                         </div>
                         <div class="col-md-9 col-sm-9">
+                            <div class=" m-b70">
+                                <!-- TITLE START -->
+                                <div class="section-head text-center">
+                                    <h2 class="text-uppercase">Notre directeur</h2>
+                                    <div class="wt-separator-outer ">
+                                        <div class="wt-separator-outer">
+                                            <div class="wt-separator style-square">
+                                                <span class="separator-left bg-primary"></span>
+                                                <span class="separator-right bg-primary"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                                        <!-- TITLE END -->
+                            </div>
                             <div class="wt-info wt-team-full-info">
                                 <h3 class="wt-title m-t0"><a href="javascript:void(0);">Dr Nestor HOUSSOU</a></h3>
                                 <div class="wt-member-position m-tb10">Directeur</div>
@@ -79,6 +93,9 @@
                                 </ul>
                             </div>
                         </div>
+                            <a href="{{route('team.show1')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
+                                Voir le profil <i class="fa fa-angle-double-right"></i>
+                            </a>
                     </div>
 
                 </div>

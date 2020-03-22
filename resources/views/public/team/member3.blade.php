@@ -48,13 +48,16 @@
                                 </div>
                                 <h4 class="widget-title">QUALIFICATIONS CLES</h4>
                                 <div class="search-bx">
-                                    -Gestion de projets miniers <br>
-                                    -Coordination et gestion d’équipes  <br>
-                                    -Pétrographie, Géochimie, Géologie structurale  <br>
-                                    -Cartographie géologique  <br>
-                                    -Géochimie sol  <br>
-                                    -Bonne capacité rédactionnelle <br>
-                                    -Encadrement technique <br>
+                                    <p>
+                                        -Gestion de projets miniers <br>
+                                        -Coordination et gestion d’équipes  <br>
+                                        -Pétrographie, Géochimie, Géologie structurale  <br>
+                                        -Cartographie géologique  <br>
+                                        -Géochimie sol  <br>
+                                        -Bonne capacité rédactionnelle <br>
+                                        -Encadrement technique <br>
+                                    </p>
+
 
                                 </div>
                                 <h4 class="widget-title">FORMATION</h4>

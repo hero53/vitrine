@@ -14,7 +14,7 @@ Route::get('public/team', 'Page\PagesController@team')->name('team.index');
 Route::get('public/team/team.show1', 'Page\PagesController@team1')->name('team.show1');
 Route::get('public/team/team.show2', 'Page\PagesController@team2')->name('team.show2');
 Route::get('public/team/team.show3', 'Page\PagesController@team3')->name('team.show3');
-Route::get('public/team/team.show4', 'Page\PagesController@team1')->name('team.show4');
+Route::get('public/team/team.show4', 'Page\PagesController@team4')->name('team.show4');
 
 Route::get('public/service', 'Service\ServiceController@index')->name('service');
 //Route::get('public/service/batiment', 'Service\ServiceController@batiment')->name('batiment');
@@ -56,6 +56,6 @@ Route::get('admin/welcome', 'Admin\CompteController@connexion')->name('admin.ind
 
 
 
-Auth::routes(['register' => false]);
+Auth::routes(['register' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
