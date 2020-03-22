@@ -88,12 +88,12 @@
                                 <p class="text-justify"></p>
                                 <p class="text-justify"></p>
                                 <ul class="social-icons social-md social-square social-primary">
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"></a></li>
                                 </ul>
                             </div>
                         </div>
-                            <a href="{{route('team.show1')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
+                            <a href="{{route('team.index')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
                                 Voir le profil <i class="fa fa-angle-double-right"></i>
                             </a>
                     </div>

@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'cv'])
+@extends('layouts.default')
 @section('content')
     <!-- INNER PAGE BANNER START -->
     <div class="wt-bnr-inr overlay-wraper" style="background-image:url(https://www.bgc-ci.com/fichiers/images/main-slider/slider1/slide1.jpg);">
@@ -15,7 +15,7 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
-                <li><a href="{{route('home.public')}}">Accueil</a></li>
+                <li><a href="{{route('home')}}">Accueil</a></li>
                 <li>Notre équipe</li>
             </ul>
         </div>
@@ -143,8 +143,8 @@
 
 
                                 <ul class="social-icons social-md social-square social-primary">
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"></a></li>
                                 </ul>
                             </div>
                         </div>

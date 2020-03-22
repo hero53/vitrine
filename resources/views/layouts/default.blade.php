@@ -78,8 +78,8 @@
                 <div class="row">
                     <div class="wt-topbar-right clearfix">
                         <ul class="social-bx list-inline pull-right">
-                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                            <li><a href="javascript:void(0);" class="fab fa-linkedin"></a></li>
                         </ul>
                         <ul class="list-unstyled e-p-bx pull-right">
                             <li><i class="fa fa-envelope"></i>info.bhex@gmail.com</li>

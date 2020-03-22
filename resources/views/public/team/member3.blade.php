@@ -133,8 +133,8 @@
 
 
                                 <ul class="social-icons social-md social-square social-primary">
-                                    <li><a href="#" class="fa fa-facebook"></a></li>
-                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"></a></li>
                                 </ul>
                             </div>
                         </div>

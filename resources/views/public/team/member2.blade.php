@@ -70,7 +70,7 @@
                                         -Gestion des locaux, Organisation et Archivage <br>
                                     </p>
 
-                                    <p class="text-center"><strong>Moyens généraux</strong></p>
+                                    <p class="text-center"><strong></strong>Moyens généraux</p>
                                     <p>
                                         -Gestion matériel bureau, équipements et parc auto <br>
                                         -Organisation ateliers, séminaires <br>
@@ -155,8 +155,8 @@
 
 
                                 <ul class="social-icons social-md social-square social-primary">
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"></a></li>
                                 </ul>
                             </div>
                         </div>
