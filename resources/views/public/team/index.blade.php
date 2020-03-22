@@ -146,8 +146,8 @@
                                 <div class="wt-team-skew-block p-t10">
                                     <div class="social-icons-outer bg-primary  p-a25">
                                         <ul class="social-icons social-square social-dark white-border m-b0">
-                                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-linkedin"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -168,8 +168,8 @@
                                 <div class="wt-team-skew-block p-t10">
                                     <div class="social-icons-outer bg-primary  p-a25">
                                         <ul class="social-icons social-square social-dark white-border m-b0">
-                                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-linkedin"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -190,8 +190,8 @@
                                 <div class="wt-team-skew-block p-t10">
                                     <div class="social-icons-outer bg-primary  p-a25">
                                         <ul class="social-icons social-square social-dark white-border m-b0">
-                                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-linkedin"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -212,8 +212,8 @@
                                 <div class="wt-team-skew-block p-t10">
                                     <div class="social-icons-outer bg-primary  p-a25">
                                         <ul class="social-icons social-square social-dark white-border m-b0">
-                                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                                            <li><a href="javascript:void(0);" class="fab fa-linkedin"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -251,7 +251,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
                                     <span class="icon-md p-t10">
-                                        <i class="fas fa-truck-pickup"></i>
+                                        <i class="fas fa-car-side"></i>
                                     </span>
                                 <div class="icon-content">
                                     <div class="font-26 font-weight-800  m-b5"><span class="counter">3</span><b>+</b></div>
@@ -262,7 +262,9 @@
 
                         <div class="col-md-3 col-sm-6">
                             <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
-
+                                 <span class="icon-md p-t10">
+                                        <i class="fas fa-tools"></i>
+                                    </span>
                                 <div class="icon-content">
                                     <div class="font-26 font-weight-800 m-b5"><span class="counter">10</span><b>+</b></div>
                                     <span>Marteaux de géologue</span>
@@ -272,7 +274,9 @@
 
                         <div class="col-md-3 col-sm-6">
                             <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
-
+                             <span class="icon-md p-t10">
+                                        <i class="fas fa-camera"></i>
+                                    </span>
                                 <div class="icon-content">
                                     <div class="counter font-26 font-weight-800 m-b5">5</div>
                                     <span>Appareil photo</span>
@@ -282,7 +286,9 @@
 
                         <div class="col-md-3 col-sm-6">
                             <div class="wt-icon-box-wraper left p-a10 text-white m-b30">
-
+                             <span class="icon-md p-t10">
+                                        <i class="fas fa-location-arrow"></i>
+                                    </span>
                                 <div class="icon-content">
                                     <div class="counter font-26 font-weight-800 m-b5">10</div>
                                     <span>GPS</span>

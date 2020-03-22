@@ -113,7 +113,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <span class="input-group-addon v-align-m"><i class="fa fa-pencil"></i></span>
+                                    <span class="input-group-addon v-align-m"><i class="fas fa-pencil-alt"></i></span>
                                     <textarea name="msg" rows="4" class="form-control " required placeholder="Message" ></textarea>
                                 </div>
                             </div>
