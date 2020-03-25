@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Model\Article;
 use Illuminate\Http\Request;
 use Intervention\Image\Image;
+use Intervention\Image\ImageServiceProvider;
 
 
 class BlogController extends Controller
@@ -64,11 +65,11 @@ class BlogController extends Controller
 
 
         $imglien= request('img')->store('uploads','public','blog');
-        $image= Image::make(public_path("/storage/{$imglien}"))->fit(200,200);
-        $image->save();
+        //$image= Image::make(public_path("/storage/{$imglien}"))->resize(200,200);
+        //$image->save();
         Article::create([
             'title'=>$data['title'],
-            'img'=>  $image,
+            'img'=>  $imglien,
             'article'=>$data['article']
         ]);
 

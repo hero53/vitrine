@@ -680,6 +680,12 @@
                                         <li class="post-date"><i class="fa fa-calendar"></i> <strong style="color: white;">{{$article->created_at->format('d/m/y à H:m')}}</strong></li>
                                     </ul>
                                 </div>
+                                <div class="wt-post-text">
+                                    <p class="text-justify">
+                                        {!!Str::limit($article->article,30)!!}
+
+                                    </p>
+                                </div>
                                 <div class="wt-post-readmore">
                                     <a href="{{route('blog.show',$article)}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
                                 </div>

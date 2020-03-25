@@ -28,34 +28,37 @@
                 <!-- LEFT PART START -->
                 <div class="col-md-9">
 
-
+                    <div class="row">
                     <!-- COLUMNS 4 -->
                     @foreach($articles as $article)
-                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="{{route('blog.show',$article)}}"><img src="{{asset('storage').'/'.$article->img}}" alt="" style="height: 200px;></a>
-                                </div>
-                                <div class="wt-post-info p-a20 p-b5 bg-white">
-
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title text-center"><a href="javascript:void(0);">{{ $article->title }}</a></h3>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="blog-post latest-blog-1 date-style-3 date-skew">
+                                    <div class="wt-post-media wt-img-effect zoom-slow">
+                                        <a href="javascript:;"><img src="{{asset('storage').'/'.$article->img}}" alt="" style="height: 200px;"></a>
                                     </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong >{{$article->created_at->format('d/m/y à H:m')}}</strong></li>
-                                        </ul>
+                                    <div class="wt-post-info p-a30 p-b20 bg-white">
+                                        <div class="wt-post-title ">
+                                            <h3 class="post-title"><a href="javascript:;">{{ $article->title }}</a></h3>
+                                        </div>
+                                        <div class="wt-post-meta ">
+                                            <ul>
+                                                <li class="post-date"><i class="fa fa-calendar"></i> <strong style="color: white;">{{$article->created_at->format('d/m/y à H:m')}}</strong></li>
+                                            </ul>
+                                        </div>
+                                        <div class="wt-post-text">
+                                            <p class="text-justify">
+                                                {!!Str::limit($article->article,30)!!}
+
+                                            </p>
+                                        </div>
+                                        <div class="wt-post-readmore">
+                                            <a href="{{route('blog.show',$article)}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
+                                        </div>
                                     </div>
-
-                                    <div class="wt-post-readmore">
-                                        <a href="{{route('blog.show',$article)}}" title="READ MORE" rel="bookmark" class="site-button">LIRE LA SUITE</a>
-                                    </div>
-
-
                                 </div>
                             </div>
-                        </div>
                     @endforeach
+                    </div>
            
 
                 </div>

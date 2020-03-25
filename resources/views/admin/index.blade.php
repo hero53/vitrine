@@ -5,12 +5,15 @@
    	<div class="col-md-6 offset-3">
    		<div class="row">
    			<div class="col-md-6">
-	   			<a class="card border-left-success shadow h-100 py-10 card-body text-center btn" href="{{route('mail.index')}}">
+	   			<a class="btn btn-primary btn-lg" href="{{route('mail.index')}}">
+					<p class="text-center">
+						<i class="fas fa-envelope"></i>
+					</p>
 	             <span class="h3"> voir les messages</span>
 	            </a>
    			</div>
    			<div class="col-md-6">
-               <a class="card border-left-success shadow h-100 py-10 card-body text-center btn" href="{{route('admin.view')}}">
+               <a class="btn btn-primary btn-lg" href="{{route('admin.view')}}">
                   <span class="h3"> Créer un nouvel évenement </span>
                </a>
    			</div>
