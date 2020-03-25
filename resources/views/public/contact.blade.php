@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'contact'])
+@extends('layouts.default',['title'=>'Contact'])
 @section('content')
 <!-- Section content -->
 <div class="wt-contact-wrap row equal-wraper">

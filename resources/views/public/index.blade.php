@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'home'])
+@extends('layouts.default',['title'=>'Accueil'])
 @section('content')
     <!-- SLIDER START -->
     <div class="main-slider style-two default-banner">

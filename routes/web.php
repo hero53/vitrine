@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Mail\ContactMessage;
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // for public
 Route::get('public/home', 'Page\PagesController@index')->name('home.public');
 
@@ -34,7 +34,7 @@ Route::post('public/contact/store', 'Contact\ContactController@store')->name('co
 Route::get('public/actualite', 'Blog\BlogController@index')->name('blog.index');
 Route::get('public/actualite/show/{articles}', 'Blog\BlogController@show')->name('blog.show');
 
-Route::get('public/projet', 'Projet\ProjetsController@index')->name('projet.index');
+Route::get('public/realisation', 'Projet\ProjetsController@index')->name('projet.index');
 Route::get('public/projet/show', 'Projet\ProjetsController@show')->name('projet.show');
 //Route::get('devi','Devi\DeviController@index')->name('devi');
 
@@ -58,4 +58,5 @@ Route::get('admin/welcome', 'Admin\CompteController@connexion')->name('admin.ind
 
 Auth::routes(['register' => true]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');

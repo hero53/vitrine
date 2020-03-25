@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin',['title'=>' Mail liste'])
 
 @section('content')
     <p class="text-center mt-5"></p>

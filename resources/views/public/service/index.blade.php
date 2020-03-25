@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'service'])
+@extends('layouts.default',['title'=>'Service'])
 @section('content')
     <!-- CONTENT START -->
     <div class="page-content  bg-white">

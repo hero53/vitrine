@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'Cv'])
 @section('content')
     <!-- INNER PAGE BANNER START -->
     <div class="wt-bnr-inr overlay-wraper" style="background-image:url(https://www.bgc-ci.com/fichiers/images/main-slider/slider1/slide1.jpg);">

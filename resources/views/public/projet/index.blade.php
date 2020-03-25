@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'projet'])
+@extends('layouts.default',['title'=>'Réalisation'])
 @section('content')
 
     <!-- CONTENT START -->

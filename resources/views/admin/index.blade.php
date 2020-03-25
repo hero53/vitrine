@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin',['title'=>'administration'])
 @section('content')
    <div class="text-center h3">Bienvenu dans l’administration de BHEX</div>
    <div class="row mt-5">

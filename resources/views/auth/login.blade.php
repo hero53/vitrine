@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.login',['title'=>'connexion'])
 
 @section('content')
 <!-- <div class="container">
@@ -131,6 +131,9 @@
                                 @endif
                   </div>
                   <div class="text-center">
+                      <a class="btn btn-link" href="{{ route('register') }}">
+                          {{ __('Inscription') }}
+                      </a>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'cv'])
+@extends('layouts.default',['title'=>'Cv'])
 @section('content')
     <!-- INNER PAGE BANNER START -->
     <div class="wt-bnr-inr overlay-wraper" style="background-image:url({{asset('images/Blue-Hill-Exploration-20171031_131342.jpg')}});">

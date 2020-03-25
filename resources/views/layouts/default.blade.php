@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="/image/x-icon" href="{{asset('images/logo.jpg')}}" />
 
     <!-- PAGE TITLE HERE -->
-    <title>BHEX- {{$title}}</title>
+    <title>{{$title}} - BHEX</title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

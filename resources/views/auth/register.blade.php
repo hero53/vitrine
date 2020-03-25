@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.login',['title'=>'Inscription'])
 
 @section('content')
 <!-- <div class="container">
@@ -126,7 +126,12 @@
                   Créer un compte
                 </button>
               </form>
-              
+               <hr>
+               <div class="text-center">
+                   <a class="btn btn-link" href="{{ route('login') }}">
+                       {{ __('connexion') }}
+                   </a>
+               </div>
             </div>
           </div>
         </div>

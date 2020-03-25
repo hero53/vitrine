@@ -1,4 +1,4 @@
-@extends('layouts.default',['title'=>'actualites description'])
+@extends('layouts.default',['title'=>'Actualités description'])
 @section('content')
     <!-- INNER PAGE BANNER -->
     <div class="wt-bnr-inr overlay-wraper" style="background-image:url({{asset('images/Blue-Hill-Exploration-blog-icon-information-internet-262508.jpg')}});">

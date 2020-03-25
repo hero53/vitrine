@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin',['title'=>' Actualité création'])
 
 @section('content')
 

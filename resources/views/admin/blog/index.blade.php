@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin',['title'=>' Actualité liste'])
 
 @section('content')
     <h1 class="h3 mb-1 text-gray-800 text-center">Creation des differents évènements </h1>

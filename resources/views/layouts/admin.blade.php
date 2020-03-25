@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BHEX</title>
+    <title>{{$title}} - BHEX</title>
 
     <!-- FAVICONS ICON -->
     <link rel="icon" href="{{asset('images/TEST1.jpg')}}" type="image/x-icon" />
@@ -41,7 +41,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">BHEX <sup>Admin</sup></div>
+            <div class="sidebar-brand-text mx-3">BHEX</div>
         </a>
 
         <!-- Divider -->
@@ -49,8 +49,13 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="{{route('mail.index')}}">
+            <a class="nav-link" href="{{route('home')}}">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Géneral</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('mail.index')}}">
+                <i class="fas fa-envelope"></i>
                 <span>Mail</span></a>
         </li>
 
