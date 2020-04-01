@@ -112,9 +112,69 @@
                                             rédaction de rapports et recommandations de travaux ultérieurs et budgétisation.
                                         </p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <!-- BLOG GRID END -->
 
+                </div>
+                <div class="row">
 
+                    <!-- BLOG START -->
+                    <div class="portfolio-wrap wt-blog-grid-3">
+
+                        <!-- COLUMNS 4 -->
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="javascript:void(0);"><img src="{{asset('images/unnamed.jpg')}}" alt=""></a>
+                                </div>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
+
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title"><a href="javascript:void(0);"> ESBTP, COTE D’IVOIRE </a></h3>
+                                    </div>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong style="color: white">NOVEMBRE-DECEMBRE 2019</strong> <span>2019</span> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="wt-post-text">
+                                        <p class="text-justify">
+                                            Mission de formation de 25 étudiants (ingénieur et brevet de technicien) aux pratiques de terrain et aux forages, formation en
+                                            traitement et interprétation des données de terrain sous SIG.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 5 -->
+                        <div class="post masonry-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="blog-post blog-grid date-style-3 date-skew">
+                                <div class="wt-post-media wt-img-effect zoom-slow">
+                                    <a href="javascript:void(0);"><img src="{{asset('images/unnamed.jpg')}}" alt=""></a>
+                                </div>
+                                <div class="wt-post-info p-a20 p-b5 bg-white">
+
+                                    <div class="wt-post-title ">
+                                        <h3 class="post-title"><a href="javascript:void(0);"> CAREM, COTE D’IVOIRE </a></h3>
+                                    </div>
+                                    <div class="wt-post-meta ">
+                                        <ul>
+                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong style="color: white">DEPUIS FEVRIER 2020</strong> <span>2019</span> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="wt-post-text">
+                                        <p class="text-justify">
+                                            Mission de reconnaissance, de cartographie litho-structurale des affleurements de roche et cartographie détaillée
+                                            des différents sites d’orpaillage, prélèvement d’échantillons spécifiques de roches et de veines de quartz en vue
+                                            de l’évaluation du potentiel aurifère du permis de Komboro (région de Korhogo), rédaction de rapport et recommandations
+                                            de travaux ultérieurs.
+
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

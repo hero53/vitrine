@@ -5,7 +5,7 @@
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">Actualites </h1>
+                <h1 class="text-white">Actualités </h1>
             </div>
         </div>
     </div>

@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3  ">
                             <div class="wt-media wt-team-full-media m-b30">
-                                <a href="#"><img src="{{asset('images/Blue-Hill-Exploration-images.png')}}" alt="team"></a>
+                                <a href="#"><img src="{{asset('images/image/avatar-directeur-bhex.jpg')}}" alt="team"></a>
                             </div>
                         </div>
                         <div class="col-md-9 col-sm-9">

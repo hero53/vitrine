@@ -128,7 +128,7 @@
                             </li>
 
                             <li>
-                                <a href="{{route('projet.index')}}">Nos realisation<i class=""></i></a>
+                                <a href="{{route('projet.index')}}">Nos realisations<i class=""></i></a>
  
                             </li>
 
@@ -302,6 +302,7 @@
 
 
 
+
     <!-- REVOLUTION JS FILES -->
     <script  src="{{asset('plugins/revolution/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
     <script  src="{{asset('plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
@@ -402,8 +403,14 @@
                     }
                 });
             }
+
+            //service
+
         }); /*ready*/
     </script>
+
+    <script   src="{{asset('js/main.js')}}"></script><!-- qpp -->
+
 
 
 

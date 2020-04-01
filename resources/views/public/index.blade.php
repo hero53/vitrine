@@ -12,7 +12,7 @@
                             <li data-index="rs-1000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="{{asset('images/Blue-Hill Exploration-group.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/slide/1.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -68,7 +68,7 @@
                                         font-weight: 700;
                                         color: #273447;
                                         border-width:0px;">
-                                    <span class="text-uppercase" style="font-family:'Roboto' ; color: #f5f4ff"><span>Travaux d’exploration </span>
+                                    <span class="text-uppercase" style="font-family:'Roboto' ; color: #f5f4ff"><span>Travaux d’exploration minière </span>
                                 </div>
 
                                 <!-- LAYER NR. 3 [ for paragraph] -->
@@ -133,7 +133,7 @@
                             <li data-index="rs-2000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="{{asset('images/Blue-Hill-Exploration-20180906_1100403.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/slide/2.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -280,7 +280,7 @@
                             <li data-index="rs-3000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slider1//slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="{{asset('images/Blue-Hill-Exploration-20171031_131342.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                                <img src="{{asset('images/slide/3.jpg')}}"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 [ for overlay ] -->
@@ -452,21 +452,26 @@
                             </div>
                         </div>
                         <p class="text-justify">
-                            Blue-Hill Exploration SARL est une entreprise de consultance.
-                            Elle est créée et dirigée par d’anciens chefs de projets miniers, de géologues séniors et
-                            géologues de projet ayant déjà travaillé pour plusieurs entreprises minières et sur divers
-                            projets en Afrique de l’Ouest et dans le monde.
+                            BHEX SARL est un groupe de consultance spécialisé en formation, étude et exécution de travaux
+                            dans différents domaines : Exploration et Exploitation minière et Pétrolière, Bâtiments et Travaux Publics,
+                            Ingénierie en Electricité et Télécom, Forage, Hydraulique et Géophysique, Agriculture et Agro-industrie, Eau,
+                            Sol et Environnement, Commerce, Import-Export, Formation et Encadrement Technique, Renforcement de capacité,
+                            et Divers.
+
                         </p>
                         <p class="text-justify">
-                            Blue-Hill Exploration SARL comprend des professionnels dynamiques et expérimentés (géologues, chercheurs, ingénieurs et techniciens)
-                            de domaines multidisciplinaires qui travaillent ensemble dans un esprit d’équipe pour assurer un service de qualité
-                            au client.
+                            BHEX SARL comprend des professionnels dynamiques et expérimentés (géologues, ingénieurs et techniciens) ayant
+                            déjà travaillé pour plusieurs entreprises minières et sur divers projets en Afrique de l’Ouest et dans le monde,
+                            qui ont décidé de travailler ensemble dans un esprit d’équipe pour assurer un service de qualité.
+
                         </p>
                         <p class="text-justify">
-                            Blue-Hill Exploration SARL regorge d’un personnel qualifié, de haut niveau avec plusieurs années d’expériences acquises dans des compagnies
-                            nationales et internationales. À cet effet, BHEX a démontré sa capacité professionnelle et a convaincu ses partenaires par
-                            la qualité de son travail. Cette entreprise assure également des formations dans divers domaines d’activités
-                            (géologie, exploration, exploitation, SIG et logiciels, etc.) pour étudiants, diplômés et cadres d’entreprise.
+                            BHEX SARL regorge d’un personnel qualifié, de haut niveau avec plusieurs années d’expériences acquises dans des
+                            compagnies nationales et internationales. À cet effet, BHEX a démontré sa capacité professionnelle et a convaincu
+                            ses partenaires et clients par la qualité de son travail. Cette entreprise assure également des formations dans
+                            divers domaines d’activités (géologie, exploration, exploitation, SIG et logiciels, etc.) pour étudiants,
+                            diplômés et cadres d’entreprise.
+
                         </p>
                         <a href="{{route('service')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
                             Nos services <i class="fa fa-angle-double-right"></i>
@@ -522,7 +527,7 @@
         <div class="container">
             <!-- TITLE START-->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">EXPERIENCE PROFESSIONNELLE </h2>
+                <h2 class="text-uppercase">REFERENCES PROFESSIONNELLES</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
@@ -550,7 +555,7 @@
                     <div class="col-md-4 col-sm-6 m-b40 animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
                         <div class="wt-icon-box-wraper p-lr20 center">
                             <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase">PROGRESS MINERAL, COTE D’IVOIRE</h5>
+                                <h5 class="wt-tilte text-uppercase">PROGRESS MINNOSERAL, COTE D’IVOIRE</h5>
                                 <p class="text-justify">
                                     Exécution des travaux d’exploration (géochimie sol, tranchées, forages mototarière, cartographie litho-structurale)
                                     sur les permis aurifères de Bobosso et de Bassawa (PR572 et 573), rédaction de rapports d’activités, de rapports
@@ -706,7 +711,7 @@
 
             <!-- TITLE START -->
             <div class="section-head text-center">
-                <h2 class="text-uppercase">NOS PARTENAIRE</h2>
+                <h2 class="text-uppercase">NOS PARTENAIRES</h2>
                 <div class="wt-separator-outer">
                     <div class="wt-separator style-square">
                         <span class="separator-left bg-primary"></span>
@@ -719,6 +724,14 @@
             <!-- IMAGE CAROUSEL START -->
             <div class="section-content animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" data-offset="100">
                 <div class="owl-carousel client-logo-carousel">
+                    <!-- COLUMNS 0 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo0.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- COLUMNS 1 -->
                     <div class="item">
@@ -741,6 +754,14 @@
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
                                 <a href="#"><img src="{{asset('images/logo/logo3.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS logo -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/Logo.png')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -804,7 +825,7 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="{{asset('images/logo/logo8.jpg')}}" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo11.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -812,10 +833,76 @@
                     <div class="item">
                         <div class="ow-client-logo">
                             <div class="client-logo wt-img-effect on-color">
-                                <a href="#"><img src="{{asset('images/logo/logo5.jpg')}}" alt=""></a>
+                                <a href="#"><img src="{{asset('images/logo/logo12.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
+
+                    <!-- COLUMNS 13 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo13.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 14 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo14.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 15 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo15.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 16 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo16.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 17 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo17.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 18 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo18.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 19 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo19.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COLUMNS 20 -->
+                    <div class="item">
+                        <div class="ow-client-logo">
+                            <div class="client-logo wt-img-effect on-color">
+                                <a href="#"><img src="{{asset('images/logo/logo20.jpg')}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
