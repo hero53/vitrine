@@ -66,6 +66,7 @@
 
     <!-- Main -->
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
+
 </head>
 
 <body>
@@ -407,6 +408,62 @@
             //service
 
         }); /*ready*/
+    </script>
+    <!--<script>
+        window.onload =function () {
+            var but = document.getElementById('lang');
+            var ang = document.getElementById("ang");
+
+            ang.style.display='none';
+
+            but.onclick = function (){
+                var fr = document.getElementById("fr");
+                if (ang.style.display == 'none'){
+                    fr.style.display = 'none';
+                    ang.style.display = 'block';
+                }else {
+                    fr.style.display = 'block';
+                    ang.style.display = 'none';
+                }
+
+            }
+        }
+    </script>-->
+    <script>
+      $(document).ready(function () {
+          //declaration cd variable
+          var lang = $('.lang');
+          var cible = $('.cible');
+          var show = $('.show');
+
+
+
+          //pour la traduction
+          $('div.cv:not(#fr)').hide();
+          $(lang).each(function () {
+              $(this).on('click',function (e) {
+                  e.preventDefault();
+                $(lang).not(this).removeClass('active');
+                $(this).addClass('active');
+                var lien = $(this).attr('href');
+                $('.cv:not('+lien+')').hide();
+                $(lien).fadeIn();
+              })
+          })
+
+         // $(show).hide();
+         // $(cible).each(function () {
+
+          //    $(this).on('click',function () {
+          //        $(this).next().slideToggle();
+          //        $(show).not($(this).next()).hide();
+          //    })
+
+          //})//
+         
+
+
+      })
     </script>
 
     <script   src="{{asset('js/main.js')}}"></script><!-- qpp -->

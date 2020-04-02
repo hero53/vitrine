@@ -20,16 +20,36 @@
             </ul>
         </div>
     </div>
+    <div class="section-full p-t80 p-b10">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-5">
+                            <a class="btn btn-primary lang active" href="#fr">Français</a>
+                            <a class="btn btn-danger lang " href="#ang">English</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
     <!-- BREADCRUMB ROW END -->
     <!-- SECTION CONTENT START -->
     <div class="section-full p-t80 p-b50">
-        <div class="container">
+        <div class="container cv" id="fr">
             <div class="row">
 
                 <!-- LEFT PART START -->
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-3 col-sm-3  ">
+                        <div class="col-md-3 col-sm-3">
                             <div class="wt-media wt-team-full-media m-b30">
                                 <a href="#"><img src="{{asset('images/image/avatar-directeur-bhex.jpg')}}" alt="team"></a>
                             </div>
@@ -38,7 +58,7 @@
                             <div class=" m-b70">
                                 <!-- TITLE START -->
                                 <div class="section-head text-center">
-                                    <h2 class="text-uppercase">Notre MANAGER</h2>
+                                    <h2 class="text-uppercase">Notre MANAGERr</h2>
                                     <div class="wt-separator-outer ">
                                         <div class="wt-separator-outer">
                                             <div class="wt-separator style-square">
@@ -49,11 +69,12 @@
                                 </div>
                                         <!-- TITLE END -->
                             </div>
-                            <div class="wt-info wt-team-full-info">
+
+                                <div class="wt-info wt-team-full-info">
 
                                 <h3 class="wt-title m-t0"><a href="javascript:void(0);">Dr Nestor HOUSSOU</a></h3>
                                 <div class="wt-member-position m-tb10">Manager</div>
-                                <p class="text-justify " id="fr">
+                                <p class="text-justify ">
                                     Dr Nestor HOUSSOU est géologue sénior bilingue avec 14 ans d’expériences
                                     dans l’exploration et les mines. Il est titulaire d’un Master et d’un PhD en Sciences de la Terre
                                     et Ressources Minières, option Pétrologie-Structural-Métallogénie. Nestor est l’un des géologues clés
@@ -81,6 +102,89 @@
                         </div>
                             <a href="{{route('team.show1')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
                                 Voir le profil <i class="fa fa-angle-double-right"></i>
+                            </a>
+                    </div>
+
+                </div>
+                <!--LEFT PART END -->
+
+                <!-- SIDE BAR START -->
+                <div class="col-md-3">
+                    <aside  class="side-bar">
+
+
+
+
+                    </aside>
+                </div>
+                <!-- SIDE BAR END -->
+
+            </div>
+        </div>
+    </div>
+        <div class="container cv" id="ang">
+            <div class="row">
+
+                <!-- LEFT PART START -->
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="wt-media wt-team-full-media m-b30">
+                                <a href="#"><img src="{{asset('images/image/avatar-directeur-bhex.jpg')}}" alt="team"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9">
+                            <div class=" m-b70">
+                                <!-- TITLE START -->
+                                <div class="section-head text-center">
+                                    <h2 class="text-uppercase">Our MANAGER</h2>
+                                    <div class="wt-separator-outer ">
+                                        <div class="wt-separator-outer">
+                                            <div class="wt-separator style-square">
+                                                <span class="separator-left bg-primary"></span>
+                                                <span class="separator-right bg-primary"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                                        <!-- TITLE END -->
+                            </div>
+
+                                <div class="wt-info wt-team-full-info">
+
+                                <h3 class="wt-title m-t0"><a href="javascript:void(0);">Dr Nestor HOUSSOU</a></h3>
+                                <div class="wt-member-position m-tb10">Manager</div>
+                                <p class="text-justify ">
+                                    Dr Nestor HOUSSOU is a bilingual (French / English) senior geologist with more than 14 years
+                                    of experience in exploration and mining. He holds a Master and a PhD in Earth Sciences and Mineral
+                                    Resources, option Petrology-Structural-Metallogeny. Nestor is one of the key geologists who developed
+                                    the Agbaou gold deposit in Côte d'Ivoire. Geologist at Etruscan Resources and then at Endeavor Mining
+                                    from 2006-2011, he managed exploration works on several projects and participated in the feasibility
+                                    study of the Agbaou gold deposit. In February 2011, Nestor worked at the Youga mine in Burkina Faso,
+                                    where he was in charge of grade control and exploration for additional resources. From July 2011 to date,
+                                    he works as a Consulting Senior Geologist. During this period, Nestor carried out various exploration
+                                    works and managed several projects in Burkina (NordGold, Predictive Discovery, Acacia mining,
+                                    Pan African Minerals on the Manganese project of Tambao, etc.), in Ghana (Chirano mine with Kinross Gold)
+                                    and in Côte d'Ivoire (Pan African Minerals on the Iron project of Mt Klahoyo, Progress Minerals,
+                                    LafargeHolcim, Orca Gold, Perseus Mining, La Mancha CI, CAREM, etc.). He has good knowledge
+                                    of software and GIS and a notable appreciation of the Management of mining projects.
+                                    DR Houssou is the author or participated of several scientific publications.
+                                    In 2019, he was a consultant for GIZ (German institution) for the development of the Ivorian mining guide.
+                                    Each year, he provides training and reinforcement for several geologists for the Ministry of Mines and
+                                    Geology and for some companies (Rangold, La Mancha, etc.). With this experience of 14 years in
+                                    exploration and mining, Dr Houssou and his team are ready to offer you a quality professional service.
+
+
+                                </p>
+                                <p class="text-justify"></p>
+                                <p class="text-justify"></p>
+                                <ul class="social-icons social-md social-square social-primary">
+                                    <li><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <a href="{{route('team.show1')}}" class="p-r15 site-button-secondry skew-icon-btn button-lg m-r15">
+                                show profil <i class="fa fa-angle-double-right"></i>
                             </a>
                     </div>
 
