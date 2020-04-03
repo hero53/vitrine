@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab7d7c7-efd3-4bb0-810f-5c584bbd29a7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/service/Blue-Hill Exploration-group.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/service/GEOLOGIE.jpg" afterPath="$PROJECT_DIR$/public/images/service/GEOLOGIE.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/public/service/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/public/service/index.blade.php" />
-    </list>
+    <list default="true" id="0ab7d7c7-efd3-4bb0-810f-5c584bbd29a7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,21 +22,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="1">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/public/service/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="169" column="117" lean-forward="false" selection-start-line="169" selection-start-column="117" selection-end-line="169" selection-end-column="117" />
+            <state relative-caret-position="438">
+              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
               <folding>
                 <element signature="e#1897#4554#0#HTML" expanded="false" />
                 <element signature="e#2003#2069#0#HTML" expanded="true" />
@@ -93,6 +87,7 @@
                 <element signature="e#13929#13966#0#HTML" expanded="true" />
                 <element signature="e#14083#14120#0#HTML" expanded="true" />
                 <element signature="e#14278#14315#0#HTML" expanded="true" />
+                <element signature="e#14936#15021#0#HTML" expanded="true" />
                 <element signature="e#15281#15318#0#HTML" expanded="true" />
                 <element signature="e#15476#15513#0#HTML" expanded="true" />
                 <element signature="e#15676#15713#0#HTML" expanded="true" />
@@ -424,12 +419,12 @@
       <workItem from="1585307325947" duration="43000" />
       <workItem from="1585669003866" duration="41696000" />
       <workItem from="1585819677310" duration="5284000" />
-      <workItem from="1585868449367" duration="4659000" />
+      <workItem from="1585868449367" duration="4900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292730000" />
+    <option name="totallyTimeSpent" value="292971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1380" height="733" extended-state="0" />
@@ -808,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -826,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/public/service/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="169" column="117" lean-forward="false" selection-start-line="169" selection-start-column="117" selection-end-line="169" selection-end-column="117" />
+        <state relative-caret-position="438">
+          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
             <element signature="e#1897#4554#0#HTML" expanded="false" />
             <element signature="e#2003#2069#0#HTML" expanded="true" />
@@ -878,11 +865,20 @@
             <element signature="e#13929#13966#0#HTML" expanded="true" />
             <element signature="e#14083#14120#0#HTML" expanded="true" />
             <element signature="e#14278#14315#0#HTML" expanded="true" />
+            <element signature="e#14936#15021#0#HTML" expanded="true" />
             <element signature="e#15281#15318#0#HTML" expanded="true" />
             <element signature="e#15476#15513#0#HTML" expanded="true" />
             <element signature="e#15676#15713#0#HTML" expanded="true" />
             <element signature="e#15887#15924#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
